@@ -13,7 +13,7 @@ function App({ Component, pageProps }: AppProps) {
 
         <meta
           name="description"
-          content="A simple project starter to work with NextJS, TypeScript, React and Styled Components"
+          content="A simple boilerplate to work with NextJS, TypeScript, React, Jest and Styled Components"
         />
 
         <title>NextJS - Boilerplate</title>
