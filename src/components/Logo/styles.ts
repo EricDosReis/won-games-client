@@ -34,6 +34,6 @@ export const Wrapper = styled.div<LogoProps>`
     color: ${theme.colors[color!]};
 
     ${!!size && wrapperModifiers[size]};
-    ${!!hideOnMobile && wrapperModifiers.hideOnMobile};
+    ${!!hideOnMobile && wrapperModifiers.hideOnMobile()};
   `}
 `;
