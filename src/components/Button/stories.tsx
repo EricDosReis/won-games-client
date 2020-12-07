@@ -29,3 +29,11 @@ Icon.args = {
   children: 'Buy now',
   icon: <AddShoppingCart />,
 };
+
+export const Link: Story = args => <Button {...args} />;
+
+Link.args = {
+  children: 'Buy now',
+  as: 'a',
+  href: 'https://reactavancado.com.br/',
+};
