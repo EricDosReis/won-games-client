@@ -70,6 +70,16 @@ exports[`<Banner /> should render the banner correctly 1`] = `
   font-weight: 600;
 }
 
+@media (max-width:1170px) {
+  .c0 .sc-gsTCUz {
+    right: 0;
+  }
+
+  .c0 .sc-gsTCUz::before {
+    display: none;
+  }
+}
+
 @media (min-width:768px) {
   .c0 {
     box-shadow: 0 0.4rem 0.5rem 0 rgba(0,0,0,0.2);
@@ -134,6 +144,208 @@ exports[`<Banner /> should render the banner correctly 1`] = `
     </h3>
     <a
       class="c5"
+      href="/games/defy-death"
+    >
+      <span>
+        Buy now
+      </span>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<Banner /> should render the banner with ribbon 1`] = `
+.c7 {
+  background-image: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  border: none;
+  border-radius: 0.4rem;
+  color: #FAFAFA;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  padding: 0.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+  height: 4rem;
+  padding: 0.8rem 3.2rem;
+}
+
+.c7:hover,
+.c7:focus {
+  background-image: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+}
+
+.c2 {
+  color: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  position: absolute;
+  top: 1.6rem;
+  background-color: #3CD3C1;
+  font-size: 1.2rem;
+  height: 2.6rem;
+  padding: 0 1.6rem;
+  right: -1.5rem;
+}
+
+.c2::before {
+  content: '';
+  border-style: solid;
+  border-left-width: 0rem;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-bottom-width: 1rem;
+  position: absolute;
+  right: 0;
+}
+
+.c2::before {
+  border-left-color: #1f8a7d;
+  border-top-color: #1f8a7d;
+}
+
+.c2::before {
+  border-top-width: 0.7rem;
+  border-right-width: 1.5rem;
+  top: 2.6rem;
+}
+
+.c0 {
+  position: relative;
+}
+
+.c3 {
+  background-color: #EAEAEA;
+  background-image: url(https://source.unsplash.com/user/willianjusten/1042x580);
+  background-position: center center;
+  background-size: cover;
+  height: 23rem;
+  width: 100%;
+}
+
+.c4 {
+  background-color: rgba(0,0,0,0.7);
+  padding: 2.4rem;
+  width: 100%;
+}
+
+.c5 {
+  color: #FAFAFA;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.c6 {
+  color: #FAFAFA;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+
+.c6 strong {
+  color: #F231A5;
+  font-weight: 600;
+}
+
+@media (max-width:1170px) {
+  .c0 .c1 {
+    right: 0;
+  }
+
+  .c0 .c1::before {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    box-shadow: 0 0.4rem 0.5rem 0 rgba(0,0,0,0.2);
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    height: 50rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    border-radius: 0 0 0.4rem 0.4rem;
+    padding: 4.0rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    font-size: 1.8rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 c2"
+    color="secondary"
+  >
+    20% OFF
+  </div>
+  <div
+    aria-label="Defy death"
+    class="c3"
+    role="img"
+    src="https://source.unsplash.com/user/willianjusten/1042x580"
+  />
+  <div
+    class="c4"
+  >
+    <h2
+      class="c5"
+    >
+      Defy death
+    </h2>
+    <h3
+      class="c6"
+    >
+      <p>
+        Play the new 
+        <strong>
+          CrashLands
+        </strong>
+         season
+      </p>
+    </h3>
+    <a
+      class="c7"
       href="/games/defy-death"
     >
       <span>
