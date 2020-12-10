@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Highlight /> should render left align 1`] = `
+.c7 {
+  background-image: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  border: none;
+  border-radius: 0.4rem;
+  color: #FAFAFA;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  padding: 0.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+  height: 4rem;
+  padding: 0.8rem 3.2rem;
+}
+
+.c7:hover,
+.c7:focus {
+  background-image: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+}
+
+.c0 {
+  background-image: url(/img/red-dead-img.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: grid;
+  height: 23rem;
+  position: relative;
+  grid-template-areas: 'content float-image';
+  grid-template-columns: 2fr 1.3fr;
+}
+
+.c0::after {
+  content: '';
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c0 .c3 {
+  text-align: left;
+}
+
+.c0 .c1 {
+  justify-self: end;
+}
+
+.c4 {
+  grid-area: content;
+  padding: 1.6rem;
+  z-index: 10;
+}
+
+.c2 {
+  grid-area: float-image;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  max-height: 23rem;
+  max-width: 100%;
+  z-index: 10;
+}
+
+.c5 {
+  color: #FAFAFA;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.c6 {
+  color: #FAFAFA;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 2.4rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 32rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    align-self: end;
+    padding: 4.0rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    max-height: 32rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    font-size: 1.8rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <img
+    aria-label="Title"
+    class="c1 c2"
+    src="/float-image.png"
+  />
+  <div
+    class="c3 c4"
+  >
+    <h3
+      class="c5"
+    >
+      Title
+    </h3>
+    <p
+      class="c6"
+    >
+      Subtitle
+    </p>
+    <a
+      class="c7"
+      href="/red-dead-redemption-2"
+    >
+      <span>
+        Buy now
+      </span>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<Highlight /> should render the highlight content 1`] = `
+.c5 {
+  background-image: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  border: none;
+  border-radius: 0.4rem;
+  color: #FAFAFA;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  padding: 0.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+  height: 4rem;
+  padding: 0.8rem 3.2rem;
+}
+
+.c5:hover,
+.c5:focus {
+  background-image: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+}
+
+.c0 {
+  background-image: url(/img/red-dead-img.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: grid;
+  height: 23rem;
+  position: relative;
+  grid-template-areas: 'float-image content';
+  grid-template-columns: 1.3fr 2fr;
+}
+
+.c0::after {
+  content: '';
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c0 .c1 {
+  text-align: right;
+}
+
+.c2 {
+  grid-area: content;
+  padding: 1.6rem;
+  z-index: 10;
+}
+
+.c3 {
+  color: #FAFAFA;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.c4 {
+  color: #FAFAFA;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 2.4rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 32rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    align-self: end;
+    padding: 4.0rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    font-size: 1.8rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 c2"
+  >
+    <h3
+      class="c3"
+    >
+      Title
+    </h3>
+    <p
+      class="c4"
+    >
+      Subtitle
+    </p>
+    <a
+      class="c5"
+      href="/red-dead-redemption-2"
+    >
+      <span>
+        Buy now
+      </span>
+    </a>
+  </div>
+</div>
+`;
