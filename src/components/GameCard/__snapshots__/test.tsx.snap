@@ -1,0 +1,797 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameCard /> should render correctly 1`] = `
+.c9 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c8 {
+  background-image: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  border: none;
+  border-radius: 0.4rem;
+  color: #FAFAFA;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  padding: 0.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  height: 3rem;
+}
+
+.c8:hover,
+.c8:focus {
+  background-image: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+}
+
+.c8 svg {
+  width: 1.6rem;
+}
+
+.c8 svg + span {
+  margin-left: 0.8rem;
+}
+
+.c0 {
+  background-color: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.c1 {
+  -webkit-animation: placeholderShimmer 1s linear infinite forwards;
+  animation: placeholderShimmer 1s linear infinite forwards;
+  background-size: 80rem 14rem;
+  background: #ededed;
+  background-image: linear-gradient( to right,#ededed 0%,#e1e1e1 20%,#ededed 40%,#ededed 100% );
+  height: 14rem;
+  width: 100%;
+}
+
+.c1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.c3 {
+  max-width: calc(100% - 2.5rem);
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+  margin: 1.6rem;
+}
+
+.c4 {
+  color: #030517;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+}
+
+.c5 {
+  color: #8F8F8F;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.c10 {
+  background-color: transparent;
+  border: none;
+  color: #F231A5;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+}
+
+.c10 svg {
+  width: 2.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 0.8rem;
+}
+
+.c7 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  height: 3rem;
+  color: #FAFAFA;
+  padding: 0 0.8rem;
+  background-color: #3CD3C1;
+  border-radius: 0.4rem;
+  margin-right: calc(0.8rem / 2);
+}
+
+<article
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="Population Zero"
+      src="/population-zero.jpg"
+    />
+  </div>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3"
+    >
+      <h3
+        class="c4"
+      >
+        Population Zero
+      </h3>
+      <h4
+        class="c5"
+      >
+        Rockstar Games
+      </h4>
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        R$ 235,00
+      </div>
+      <button
+        aria-label="Add to Cart"
+        class="c8"
+      >
+        <svg
+          aria-hidden="true"
+          class="c9"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-8.9-5h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4l-3.87 7H8.53L4.27 2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2z"
+          />
+        </svg>
+      </button>
+    </div>
+    <button
+      class="c10"
+    >
+      <svg
+        aria-hidden="true"
+        aria-label="Add to Wishlist"
+        class="c9"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+        />
+      </svg>
+    </button>
+  </div>
+</article>
+`;
+
+exports[`<GameCard /> should render the game card with ribbon 1`] = `
+.c10 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c9 {
+  background-image: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  border: none;
+  border-radius: 0.4rem;
+  color: #FAFAFA;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  padding: 0.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  height: 3rem;
+}
+
+.c9:hover,
+.c9:focus {
+  background-image: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+}
+
+.c9 svg {
+  width: 1.6rem;
+}
+
+.c9 svg + span {
+  margin-left: 0.8rem;
+}
+
+.c1 {
+  color: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  position: absolute;
+  top: 1.6rem;
+  background-color: #3CD3C1;
+  font-size: 1.2rem;
+  height: 2.6rem;
+  padding: 0 1.6rem;
+  right: -1.5rem;
+}
+
+.c1::before {
+  content: '';
+  border-style: solid;
+  border-left-width: 0rem;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-bottom-width: 1rem;
+  position: absolute;
+  right: 0;
+}
+
+.c1::before {
+  border-left-color: #1f8a7d;
+  border-top-color: #1f8a7d;
+}
+
+.c1::before {
+  border-top-width: 0.7rem;
+  border-right-width: 1.5rem;
+  top: 2.6rem;
+}
+
+.c0 {
+  background-color: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.c2 {
+  -webkit-animation: placeholderShimmer 1s linear infinite forwards;
+  animation: placeholderShimmer 1s linear infinite forwards;
+  background-size: 80rem 14rem;
+  background: #ededed;
+  background-image: linear-gradient( to right,#ededed 0%,#e1e1e1 20%,#ededed 40%,#ededed 100% );
+  height: 14rem;
+  width: 100%;
+}
+
+.c2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.c4 {
+  max-width: calc(100% - 2.5rem);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+  margin: 1.6rem;
+}
+
+.c5 {
+  color: #030517;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+}
+
+.c6 {
+  color: #8F8F8F;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.c11 {
+  background-color: transparent;
+  border: none;
+  color: #F231A5;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+}
+
+.c11 svg {
+  width: 2.5rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 0.8rem;
+}
+
+.c8 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  height: 3rem;
+  color: #FAFAFA;
+  padding: 0 0.8rem;
+  background-color: #3CD3C1;
+  border-radius: 0.4rem;
+  margin-right: calc(0.8rem / 2);
+}
+
+<article
+  class="c0"
+>
+  <div
+    class="c1"
+    color="secondary"
+  >
+    20% OFF
+  </div>
+  <div
+    class="c2"
+  >
+    <img
+      alt="Population Zero"
+      src="/population-zero.jpg"
+    />
+  </div>
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <h3
+        class="c5"
+      >
+        Population Zero
+      </h3>
+      <h4
+        class="c6"
+      >
+        Rockstar Games
+      </h4>
+    </div>
+    <div
+      class="c7"
+    >
+      <div
+        class="c8"
+      >
+        R$ 235,00
+      </div>
+      <button
+        aria-label="Add to Cart"
+        class="c9"
+      >
+        <svg
+          aria-hidden="true"
+          class="c10"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-8.9-5h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4l-3.87 7H8.53L4.27 2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2z"
+          />
+        </svg>
+      </button>
+    </div>
+    <button
+      class="c11"
+    >
+      <svg
+        aria-hidden="true"
+        aria-label="Add to Wishlist"
+        class="c10"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+        />
+      </svg>
+    </button>
+  </div>
+</article>
+`;
+
+exports[`<GameCard /> should render with promotional price 1`] = `
+.c10 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c9 {
+  background-image: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  border: none;
+  border-radius: 0.4rem;
+  color: #FAFAFA;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  padding: 0.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  height: 3rem;
+}
+
+.c9:hover,
+.c9:focus {
+  background-image: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+}
+
+.c9 svg {
+  width: 1.6rem;
+}
+
+.c9 svg + span {
+  margin-left: 0.8rem;
+}
+
+.c0 {
+  background-color: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.c1 {
+  -webkit-animation: placeholderShimmer 1s linear infinite forwards;
+  animation: placeholderShimmer 1s linear infinite forwards;
+  background-size: 80rem 14rem;
+  background: #ededed;
+  background-image: linear-gradient( to right,#ededed 0%,#e1e1e1 20%,#ededed 40%,#ededed 100% );
+  height: 14rem;
+  width: 100%;
+}
+
+.c1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.c3 {
+  max-width: calc(100% - 2.5rem);
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+  margin: 1.6rem;
+}
+
+.c4 {
+  color: #030517;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+}
+
+.c5 {
+  color: #8F8F8F;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.c11 {
+  background-color: transparent;
+  border: none;
+  color: #F231A5;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+}
+
+.c11 svg {
+  width: 2.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 0.8rem;
+}
+
+.c7 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  height: 3rem;
+  color: #8F8F8F;
+  margin-right: 1.6rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c8 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  height: 3rem;
+  color: #FAFAFA;
+  padding: 0 0.8rem;
+  background-color: #3CD3C1;
+  border-radius: 0.4rem;
+  margin-right: calc(0.8rem / 2);
+}
+
+<article
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="Population Zero"
+      src="/population-zero.jpg"
+    />
+  </div>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3"
+    >
+      <h3
+        class="c4"
+      >
+        Population Zero
+      </h3>
+      <h4
+        class="c5"
+      >
+        Rockstar Games
+      </h4>
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        R$ 235,00
+      </div>
+      <div
+        class="c8"
+      >
+        R$ 180,00
+      </div>
+      <button
+        aria-label="Add to Cart"
+        class="c9"
+      >
+        <svg
+          aria-hidden="true"
+          class="c10"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-8.9-5h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4l-3.87 7H8.53L4.27 2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2z"
+          />
+        </svg>
+      </button>
+    </div>
+    <button
+      class="c11"
+    >
+      <svg
+        aria-hidden="true"
+        aria-label="Add to Wishlist"
+        class="c10"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
+        />
+        <path
+          d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+        />
+      </svg>
+    </button>
+  </div>
+</article>
+`;
