@@ -1,9 +1,10 @@
+import { darken } from 'polished';
 import styled, { css, DefaultTheme } from 'styled-components';
 import { ButtonProps } from '.';
 
 type WrapperProps = {
   hasIcon: boolean;
-} & Pick<ButtonProps, 'size' | 'fullWidth'>;
+} & Pick<ButtonProps, 'size' | 'fullWidth' | 'minimal'>;
 
 const wrapperModifiers = {
   small: (theme: DefaultTheme) => css`
@@ -27,6 +28,17 @@ const wrapperModifiers = {
     width: 100%;
   `,
 
+  minimal: (theme: DefaultTheme) => css`
+    background: none;
+    color: ${theme.colors.primary};
+
+    :hover,
+    :focus {
+      background: none;
+      color: ${darken(0.3, theme.colors.primary)};
+    }
+  `,
+
   withIcon: (theme: DefaultTheme) => css`
     svg {
       width: 1.6rem;
@@ -39,7 +51,7 @@ const wrapperModifiers = {
 };
 
 export const Wrapper = styled.button<WrapperProps>`
-  ${({ theme, size, fullWidth, hasIcon }) => css`
+  ${({ theme, size, fullWidth, minimal, hasIcon }) => css`
     background-image: linear-gradient(180deg, #ff5f5f 0%, #f062c0 50%);
     border: none;
     border-radius: ${theme.border.radius};
@@ -58,7 +70,8 @@ export const Wrapper = styled.button<WrapperProps>`
     }
 
     ${!!size && wrapperModifiers[size](theme)};
-    ${!!fullWidth && wrapperModifiers.fullWidth()}
+    ${fullWidth && wrapperModifiers.fullWidth()}
+    ${minimal && wrapperModifiers.minimal(theme)}
     ${!!hasIcon && wrapperModifiers.withIcon(theme)}
   `}
 `;
