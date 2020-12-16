@@ -1,0 +1,2598 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render the home 1`] = `
+.c13 {
+  background-image: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  border: none;
+  border-radius: 0.4rem;
+  color: #FAFAFA;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  padding: 0.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+  height: 4rem;
+  padding: 0.8rem 3.2rem;
+}
+
+.c13:hover,
+.c13:focus {
+  background-image: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+}
+
+.c17 {
+  background-image: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  border: none;
+  border-radius: 0.4rem;
+  color: #FAFAFA;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  padding: 0.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  height: 5rem;
+  padding: 0.8rem 4.8rem;
+  width: 100%;
+}
+
+.c17:hover,
+.c17:focus {
+  background-image: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+}
+
+.c47 {
+  background-image: linear-gradient(180deg,#ff5f5f 0%,#f062c0 50%);
+  border: none;
+  border-radius: 0.4rem;
+  color: #FAFAFA;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+  padding: 0.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  height: 3rem;
+}
+
+.c47:hover,
+.c47:focus {
+  background-image: linear-gradient(180deg,#e35565 0%,#d958a6 50%);
+}
+
+.c47 svg {
+  width: 1.6rem;
+}
+
+.c47 svg + span {
+  margin-left: 0.8rem;
+}
+
+.c50 {
+  background-image: url(/img/highlight-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: grid;
+  height: 23rem;
+  position: relative;
+  grid-template-areas: 'float-image content';
+  grid-template-columns: 1.3fr 2fr;
+}
+
+.c50::after {
+  content: '';
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c50 .c51 {
+  text-align: right;
+}
+
+.c52 {
+  grid-area: content;
+  padding: 1.6rem;
+  z-index: 10;
+}
+
+.c53 {
+  color: #FAFAFA;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.c54 {
+  color: #FAFAFA;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 2.4rem;
+}
+
+.c0 {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 130rem;
+  padding-right: calc(3.2rem / 2);
+  padding-left: calc(3.2rem / 2);
+}
+
+.c35 {
+  color: #FAFAFA;
+  border-left: 0.7rem solid #3CD3C1;
+  padding-left: 0.8rem;
+  font-size: 2.0rem;
+}
+
+.c62 {
+  color: #030517;
+  position: relative;
+  margin-bottom: 3.2rem;
+  font-size: 1.6rem;
+}
+
+.c62::after {
+  border-bottom: 0.5rem solid #3CD3C1;
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 5rem;
+}
+
+.c62::after {
+  width: 3rem;
+}
+
+.c6 {
+  color: #FAFAFA;
+  height: 3.3rem;
+  width: 11rem;
+}
+
+.c59 {
+  color: #030517;
+  height: 3.3rem;
+  width: 11rem;
+}
+
+.c58 .c34 {
+  text-transform: uppercase;
+}
+
+.c60 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+.c60 address {
+  font-style: normal;
+}
+
+.c61 a,
+.c61 span {
+  display: block;
+  color: #8F8F8F;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.c61 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c63 {
+  color: #8F8F8F;
+  font-size: 1.2rem;
+  margin-top: 4.0rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.c4 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2.4rem 0;
+  position: relative;
+}
+
+.c3 {
+  color: #FAFAFA;
+  cursor: pointer;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c12 > div {
+  margin-left: 1.6rem;
+}
+
+.c11 {
+  color: #FAFAFA;
+  font-size: 1.6rem;
+  margin: 0.3rem 2.4rem 0;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c11::after {
+  content: '';
+  background-color: #F231A5;
+  display: block;
+  height: 0.3rem;
+  position: absolute;
+  left: 50%;
+  width: 0;
+  -webkit-transition: left 0.15s linear,width 0.15s linear;
+  transition: left 0.15s linear,width 0.15s linear;
+}
+
+.c11:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.c14 {
+  background-color: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.c14 > svg {
+  cursor: pointer;
+  height: 2.4rem;
+  width: 2.4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.6rem;
+}
+
+.c14 .c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0;
+}
+
+.c14 .c10 {
+  color: #030517;
+  font-weight: 600;
+  font-size: 2.0rem;
+  margin-bottom: 2.4rem;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  -webkit-transform: translateY(3rem);
+  -ms-transform: translateY(3rem);
+  transform: translateY(3rem);
+}
+
+.c14 .c15 {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  -webkit-transform: translateY(3rem);
+  -ms-transform: translateY(3rem);
+  transform: translateY(3rem);
+}
+
+.c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 4.8rem 4.8rem;
+}
+
+.c16 > span {
+  display: block;
+  margin: 0.8rem 0;
+  font-size: 1.2rem;
+}
+
+.c18 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #F231A5;
+  border-bottom: 0.2rem solid #F231A5;
+}
+
+.c9 {
+  margin-left: 2.4rem;
+}
+
+.c2 {
+  display: none;
+}
+
+.c7 {
+  display: none;
+}
+
+.c25 {
+  color: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  position: absolute;
+  top: 1.6rem;
+  background-color: #F231A5;
+  font-size: 1.4rem;
+  height: 3.6rem;
+  padding: 0 2.4rem;
+  right: -2rem;
+}
+
+.c25::before {
+  content: '';
+  border-style: solid;
+  border-left-width: 0rem;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-bottom-width: 1rem;
+  position: absolute;
+  right: 0;
+}
+
+.c25::before {
+  border-left-color: #b20b6f;
+  border-top-color: #b20b6f;
+}
+
+.c25::before {
+  border-top-width: 1rem;
+  border-right-width: 2rem;
+  top: 3.6rem;
+}
+
+.c38 {
+  background-color: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.c39 {
+  -webkit-animation: placeholderShimmer 1s linear infinite forwards;
+  animation: placeholderShimmer 1s linear infinite forwards;
+  background-size: 80rem 14rem;
+  background: #ededed;
+  background-image: linear-gradient( to right,#ededed 0%,#e1e1e1 20%,#ededed 40%,#ededed 100% );
+  height: 14rem;
+  width: 100%;
+}
+
+.c39 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.c41 {
+  max-width: calc(100% - 2.5rem);
+}
+
+.c40 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+  margin: 1.6rem;
+}
+
+.c42 {
+  color: #030517;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+}
+
+.c43 {
+  color: #8F8F8F;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.c48 {
+  background-color: transparent;
+  border: none;
+  color: #F231A5;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+}
+
+.c48 svg {
+  width: 2.5rem;
+}
+
+.c44 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 0.8rem;
+}
+
+.c45 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  height: 3rem;
+  color: #8F8F8F;
+  margin-right: 1.6rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c46 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+  height: 3rem;
+  color: #FAFAFA;
+  padding: 0 0.8rem;
+  background-color: #3CD3C1;
+  border-radius: 0.4rem;
+  margin-right: calc(0.8rem / 2);
+}
+
+.c21 .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c21 .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.c21 .slick-list:focus {
+  outline: none;
+}
+
+.c21 .slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.c21 .slick-slider .slick-track,
+.c21 .slick-slider .slick-list {
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.c21 .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.c21 .slick-track:before,
+.c21 .slick-track:after {
+  display: table;
+  content: '';
+}
+
+.c21 .slick-track:after {
+  clear: both;
+}
+
+.c21 .slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.c21 .slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.c21 [dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.c21 .slick-slide img {
+  display: block;
+}
+
+.c21 .slick-slide.slick-loading img {
+  display: none;
+}
+
+.c21 .slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.c21 .slick-initialized .slick-slide {
+  display: block;
+}
+
+.c21 .slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.c21 .slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.c21 .slick-arrow.slick-hidden {
+  display: none;
+}
+
+.c37 .slick-track,
+.c37 .slick-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c37 .slick-slide > div {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  height: 100%;
+  margin: 0 0.8rem;
+}
+
+.c37 .slick-list {
+  margin: 0 -0.8rem;
+}
+
+.c37 .slick-prev,
+.c37 .slick-next {
+  display: block;
+  color: #030517;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
+
+.c37 .slick-prev {
+  left: -5.6rem;
+}
+
+.c37 .slick-next {
+  right: -5.6rem;
+}
+
+.c37 .slick-prev.slick-disabled,
+.c37 .slick-next.slick-disabled {
+  visibility: hidden;
+}
+
+.c55 .slick-track,
+.c55 .slick-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c55 .slick-slide > div {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  height: 100%;
+  margin: 0 0.8rem;
+}
+
+.c55 .slick-list {
+  margin: 0 -0.8rem;
+}
+
+.c55 .slick-prev,
+.c55 .slick-next {
+  display: block;
+  color: #FAFAFA;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
+
+.c55 .slick-prev {
+  left: -5.6rem;
+}
+
+.c55 .slick-next {
+  right: -5.6rem;
+}
+
+.c55 .slick-prev.slick-disabled,
+.c55 .slick-next.slick-disabled {
+  visibility: hidden;
+}
+
+.c23 {
+  position: relative;
+}
+
+.c26 {
+  background-color: #EAEAEA;
+  background-image: url(https://source.unsplash.com/user/willianjusten/1042x580);
+  background-position: center center;
+  background-size: cover;
+  height: 23rem;
+  width: 100%;
+}
+
+.c30 {
+  background-color: #EAEAEA;
+  background-image: url(https://source.unsplash.com/user/willianjusten/1042x582);
+  background-position: center center;
+  background-size: cover;
+  height: 23rem;
+  width: 100%;
+}
+
+.c31 {
+  background-color: #EAEAEA;
+  background-image: url(https://source.unsplash.com/user/willianjusten/1042x581);
+  background-position: center center;
+  background-size: cover;
+  height: 23rem;
+  width: 100%;
+}
+
+.c27 {
+  background-color: rgba(0,0,0,0.7);
+  padding: 2.4rem;
+  width: 100%;
+}
+
+.c28 {
+  color: #FAFAFA;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.c29 {
+  color: #FAFAFA;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+
+.c29 strong {
+  color: #F231A5;
+  font-weight: 600;
+}
+
+.c20 .slick-dots {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin-top: 2.4rem;
+}
+
+.c20 .slick-dots li {
+  background: #FAFAFA;
+  border-radius: 100%;
+  cursor: pointer;
+  height: 1.2rem;
+  width: 1.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 0.8rem;
+}
+
+.c20 .slick-dots li.slick-active {
+  background: #F231A5;
+}
+
+.c20 .slick-dots button {
+  cursor: pointer;
+  height: 1.2rem;
+  width: 1.2rem;
+  opacity: 0;
+}
+
+.c32 {
+  margin-bottom: calc(4.0rem * 2);
+}
+
+.c32 .c34,
+.c32 .c49,
+.c32 .c36 {
+  margin-bottom: 3.2rem;
+}
+
+.c19 {
+  margin: 4.0rem calc(-3.2rem / 2);
+}
+
+.c33 {
+  margin-bottom: calc(5.6rem * 2);
+}
+
+.c56 .c49 {
+  margin-top: calc(4.8rem * 2);
+}
+
+.c57 {
+  background-color: #FAFAFA;
+  -webkit-clip-path: polygon(0 5%,100% 0%,100% 100%,0 100%);
+  clip-path: polygon(0 5%,100% 0%,100% 100%,0 100%);
+  margin-top: 4.0rem;
+  padding-bottom: 1.6rem;
+  padding-top: 5.6rem;
+}
+
+@media (min-width:768px) {
+  .c50 {
+    height: 32rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c52 {
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    align-self: end;
+    padding: 4.0rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c53 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c54 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c35 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    height: 4.5rem;
+    width: 5.8rem;
+  }
+
+  .c6 svg {
+    height: 4.5rem;
+    pointer-events: none;
+  }
+
+  .c6 .text {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c60 {
+    grid-template-columns: repeat(4,1fr);
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    display: block;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    display: block;
+  }
+}
+
+@media (max-width:1170px) {
+  .c37 {
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width:1170px) {
+  .c37 .slick-slide > div {
+    margin: 0 1.6rem;
+  }
+
+  .c37 .slick-list {
+    margin: 0 -1.6rem;
+  }
+}
+
+@media (max-width:1170px) {
+  .c55 {
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width:1170px) {
+  .c55 .slick-slide > div {
+    margin: 0 1.6rem;
+  }
+
+  .c55 .slick-list {
+    margin: 0 -1.6rem;
+  }
+}
+
+@media (max-width:1170px) {
+  .c23 .c24 {
+    right: 0;
+  }
+
+  .c23 .c24::before {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c23 {
+    box-shadow: 0 0.4rem 0.5rem 0 rgba(0,0,0,0.2);
+  }
+}
+
+@media (min-width:768px) {
+  .c26 {
+    height: 50rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c30 {
+    height: 50rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c31 {
+    height: 50rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c27 {
+    border-radius: 0 0 0.4rem 0.4rem;
+    padding: 4.0rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c28 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c29 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:1170px) {
+  .c20 .c22 {
+    margin: 0 auto;
+    max-width: 104rem;
+  }
+
+  .c20 .slick-dots {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+  }
+
+  .c20 .slick-dots li {
+    margin: 0.8rem 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c32 .c49 {
+    margin-left: calc(-3.2rem / 2);
+    margin-right: calc(-3.2rem / 2);
+  }
+}
+
+@media (max-width:1440px) {
+  .c32 .c36 {
+    margin-right: calc(-3.2rem / 2);
+  }
+}
+
+@media (min-width:768px) {
+  .c19 {
+    margin: 4.0rem 0;
+    position: relative;
+    z-index: 10;
+  }
+}
+
+@media (min-width:1170px) {
+  .c33 {
+    margin-top: -13rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c33 {
+    background-color: #FAFAFA;
+    -webkit-clip-path: polygon(0 0,100% 15%,100% 100%,0 85%);
+    clip-path: polygon(0 0,100% 15%,100% 100%,0 85%);
+    margin-bottom: 0;
+    padding-top: 14rem;
+    padding-bottom: 10rem;
+  }
+
+  .c33 .c34 {
+    color: #030517;
+  }
+}
+
+@media (min-width:768px) {
+  .c57 {
+    -webkit-clip-path: polygon(0 15%,100% 0%,100% 100%,0 100%);
+    clip-path: polygon(0 15%,100% 0%,100% 100%,0 100%);
+    padding-top: calc(5.6rem * 2);
+  }
+}
+
+<section>
+  <div
+    class="c0"
+  >
+    <menu
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <svg
+            aria-hidden="true"
+            aria-label="Open Menu"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="c5"
+      >
+        <div
+          class="c6"
+          color="white"
+        >
+          <svg
+            aria-label="Won Games"
+            fill="none"
+            role="img"
+            viewBox="0 0 158 48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M.05 15.23L.02 35.87a6 6 0 009.33 5l20.6-13.72 20.54 13.8a6 6 0 009.34-4.97l.04-20A11.81 11.81 0 0044.75 4.62l-.87.25a50.87 50.87 0 01-29.36-.27A11.15 11.15 0 00.05 15.23z"
+              fill="url(#paint0_linear)"
+            />
+            <path
+              d="M30.16 27.16l-6.03-4.3a.5.5 0 00-.78.5l1.3 7.3 5.51-3.5z"
+              fill="#110F28"
+              fill-opacity=".15"
+            />
+            <path
+              d="M7.6 7.1c-5.12 2.76-4.53 5-4.53 7.5M57.27 26.1v1M3.05 18.1v2M57.27 30.1v5"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-opacity=".4"
+              stroke-width="1.5"
+            />
+            <path
+              d="M13.05 15.1v6M10.04 18.1h6.02"
+              stroke="#0A0D27"
+              stroke-linecap="round"
+              stroke-width="2"
+            />
+            <ellipse
+              fill="#0A0D27"
+              rx="1.51"
+              ry="1.5"
+              transform="matrix(1 0 0 1 44.72 13.66)"
+            />
+            <ellipse
+              fill="#0A0D27"
+              rx="1.51"
+              ry="1.5"
+              transform="matrix(1 0 0 1 49.74 17.6)"
+            />
+            <ellipse
+              fill="#0A0D27"
+              rx="1.51"
+              ry="1.5"
+              transform="matrix(1 0 0 1 44.72 21.6)"
+            />
+            <ellipse
+              fill="#0A0D27"
+              rx="1.51"
+              ry="1.5"
+              transform="matrix(1 0 0 1 39.7 17.6)"
+            />
+            <path
+              class="text"
+              d="M79.26 12.63h-.06c-.68.1-1.2.44-1.56 1.02a2.36 2.36 0 00-.3 1.5v.03l1.38 9.33c.08.54.34 1 .78 1.35a2.27 2.27 0 001.77.45c.66-.1 1.17-.42 1.53-.96a2.05 2.05 0 00.36-1.5l-1.38-9.33a2.23 2.23 0 00-2.22-1.92l-.3.03zm18.78-.03c-.54 0-1.02.18-1.44.54-.44.36-.7.82-.78 1.38l-1.4 9.51a.88.88 0 00-.04.21c0 .52.17.98.51 1.38.36.46.84.73 1.44.81a2.15 2.15 0 001.98-.69c.3-.32.5-.7.57-1.14v-.06l1.38-9.36v-.03l.03-.3c0-.42-.12-.82-.36-1.2a2.1 2.1 0 00-1.53-1.02h-.06l-.3-.03zm-9.24 8.04h-.06a.99.99 0 00-.24.03 2.2 2.2 0 00-1.4.72l-.4.42-2.19 2.7-.72.84c-.28.34-.5.6-.69.75a3.26 3.26 0 01-1.74.9 3.19 3.19 0 01-1.53-.18c-.32-.12-.6-.29-.84-.5l.75 5.12v.06a3.8 3.8 0 00.18.66c.14.3.35.56.63.78.18.16.38.28.6.36.24.08.5.12.75.12h.1c.15 0 .3 0 .41-.03.46-.1.85-.32 1.17-.66l.3-.3 4.9-6.03 4.73 5.82.45.51c.38.38.83.61 1.35.7h.33c.28 0 .55-.06.81-.16.42-.18.77-.46 1.05-.84.18-.28.3-.59.36-.93v-.06l.75-5c-.34.3-.73.5-1.17.6a2.64 2.64 0 01-1.23.08 2.9 2.9 0 01-.8-.24 4.1 4.1 0 01-1-.75c-.26-.26-.59-.65-.99-1.17L90.9 21.9a5.15 5.15 0 00-.42-.48c-.2-.2-.39-.35-.57-.45a2 2 0 00-1.02-.33h-.09zm19.8.3a2.99 2.99 0 012.02-.8 3.04 3.04 0 012.49 1.35 5.91 5.91 0 012.13-3.16 5.73 5.73 0 013.6-1.23 5.7 5.7 0 014.23 1.77 5.76 5.76 0 011.74 4.23c0 1.66-.58 3.08-1.74 4.26a5.76 5.76 0 01-4.23 1.74 5.95 5.95 0 01-5.76-4.38c-.22.34-.5.63-.84.87-.5.3-1.04.45-1.62.45-.42 0-.83-.08-1.23-.24-.3-.14-.56-.32-.78-.54.5 2.42 1.7 4.42 3.63 6a10.17 10.17 0 006.6 2.34c1.9 0 3.65-.47 5.25-1.4a10.24 10.24 0 003.8-3.82 10.34 10.34 0 001.42-5.28c0-1.9-.47-3.65-1.41-5.25a10.18 10.18 0 00-3.81-3.84 10.18 10.18 0 00-5.25-1.4c-2.46 0-4.65.78-6.57 2.36a10.26 10.26 0 00-3.66 5.97zm2.02-.09c-.66 0-1.21.24-1.65.72-.24.24-.41.53-.51.87a2.61 2.61 0 000 1.32c.08.28.2.53.39.75.44.56 1.03.84 1.77.84.72 0 1.3-.27 1.74-.8.22-.27.37-.55.45-.85.04-.2.06-.4.06-.6 0-.18-.02-.35-.06-.5a2.19 2.19 0 00-.48-1 2.23 2.23 0 00-1.71-.75zm29.65-8.25c-.6 0-1.12.21-1.56.63-.46.44-.7.98-.7 1.62V21c.25-.28.54-.5.88-.66.42-.2.87-.3 1.35-.3h.06a3.03 3.03 0 012.37 1.14l9.8 11.55a2.1 2.1 0 001.78.87 2.2 2.2 0 001.68-.75c.38-.42.57-.92.57-1.5v-6.12a3.17 3.17 0 01-2.25.93c-.56 0-1.08-.13-1.56-.39-.34-.2-.63-.45-.87-.75l-9.87-11.67a2.46 2.46 0 00-.78-.57 2.26 2.26 0 00-.9-.18zm13.98 0c-.62 0-1.14.21-1.56.63-.46.44-.7.98-.7 1.62v8.7c0 .42.15.8.43 1.14a2.2 2.2 0 001.83.84c.54 0 1.02-.15 1.44-.45.52-.4.79-.9.8-1.53v-8.7a2.22 2.22 0 00-.8-1.7c-.42-.37-.9-.55-1.44-.55zm-14.01 8.07c-.6 0-1.11.2-1.53.57-.44.4-.67.88-.7 1.44v8.67c0 .5.16.95.46 1.35.46.6 1.06.9 1.8.9.64 0 1.18-.23 1.62-.69.42-.42.63-.94.63-1.56v-8.67a1.93 1.93 0 00-1.17-1.77 2.31 2.31 0 00-1.05-.24h-.06z"
+              fill="currentColor"
+            />
+            <defs>
+              <lineargradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear"
+                x1="29.16"
+                x2="30.15"
+                y1="-7.4"
+                y2="49.1"
+              >
+                <stop
+                  stop-color="#FF5F5F"
+                />
+                <stop
+                  offset="1"
+                  stop-color="#F062C0"
+                />
+                <stop
+                  offset="1"
+                  stop-color="#F23131"
+                />
+              </lineargradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8 c9"
+        >
+          <a
+            class="c10 c11"
+            href="#"
+          >
+            Home
+          </a>
+          <a
+            class="c10 c11"
+            href="#"
+          >
+            Explore
+          </a>
+        </div>
+      </div>
+      <div
+        class="c12"
+      >
+        <div
+          class="c3"
+        >
+          <svg
+            aria-hidden="true"
+            aria-label="Search"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </div>
+        <div
+          class="c3"
+        >
+          <svg
+            aria-hidden="true"
+            aria-label="Open Shopping Cart"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49A.996.996 0 0020.01 4H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+            />
+          </svg>
+        </div>
+        <div
+          class="c7"
+        >
+          <button
+            class="c13"
+          >
+            <span>
+              Sign in
+            </span>
+          </button>
+        </div>
+      </div>
+      <nav
+        aria-hidden="true"
+        class="c14"
+      >
+        <svg
+          aria-hidden="true"
+          aria-label="Close Menu"
+          class="c4"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
+          />
+        </svg>
+        <div
+          class="c8 c9"
+        >
+          <a
+            class="c10 c11"
+            href="#"
+          >
+            Home
+          </a>
+          <a
+            class="c10 c11"
+            href="#"
+          >
+            Explore
+          </a>
+        </div>
+        <div
+          class="c15 c16"
+        >
+          <button
+            class="c17"
+          >
+            <span>
+              Log in now
+            </span>
+          </button>
+          <span>
+            or
+          </span>
+          <a
+            class="c18"
+            href="#"
+            title="Sign up"
+          >
+            Sign up
+          </a>
+        </div>
+      </nav>
+    </menu>
+    <section
+      class="c19"
+    >
+      <section
+        class="c20"
+      >
+        <section
+          class="c21"
+        >
+          <div
+            class="slick-slider slick-vertical slick-initialized"
+            dir="ltr"
+          >
+            <div
+              class="slick-list"
+              style="height: 0px;"
+            >
+              <div
+                class="slick-track"
+                style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+              >
+                <div
+                  aria-hidden="false"
+                  class="slick-slide slick-active slick-current"
+                  data-index="0"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="c22 c23"
+                    >
+                      <div
+                        class="c24 c25"
+                        color="primary"
+                      >
+                        Bestselling
+                      </div>
+                      <div
+                        aria-label="Defy death 1"
+                        class="c26"
+                        role="img"
+                        src="https://source.unsplash.com/user/willianjusten/1042x580"
+                      />
+                      <div
+                        class="c27"
+                      >
+                        <h2
+                          class="c28"
+                        >
+                          Defy death 1
+                        </h2>
+                        <h3
+                          class="c29"
+                        >
+                          <p>
+                            Play the new 
+                            <strong>
+                              CrashLands
+                            </strong>
+                             season
+                          </p>
+                        </h3>
+                        <a
+                          class="c13"
+                          href="/games/defy-death"
+                        >
+                          <span>
+                            Buy now
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide"
+                  data-index="1"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="c22 c23"
+                    >
+                      <div
+                        aria-label="Defy death 2"
+                        class="c30"
+                        role="img"
+                        src="https://source.unsplash.com/user/willianjusten/1042x582"
+                      />
+                      <div
+                        class="c27"
+                      >
+                        <h2
+                          class="c28"
+                        >
+                          Defy death 2
+                        </h2>
+                        <h3
+                          class="c29"
+                        >
+                          <p>
+                            Play the new 
+                            <strong>
+                              CrashLands
+                            </strong>
+                             season
+                          </p>
+                        </h3>
+                        <a
+                          class="c13"
+                          href="/games/defy-death"
+                        >
+                          <span>
+                            Buy now
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="slick-slide"
+                  data-index="2"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <div
+                      class="c22 c23"
+                    >
+                      <div
+                        aria-label="Defy death 3"
+                        class="c31"
+                        role="img"
+                        src="https://source.unsplash.com/user/willianjusten/1042x581"
+                      />
+                      <div
+                        class="c27"
+                      >
+                        <h2
+                          class="c28"
+                        >
+                          Defy death 3
+                        </h2>
+                        <h3
+                          class="c29"
+                        >
+                          <p>
+                            Play the new 
+                            <strong>
+                              CrashLands
+                            </strong>
+                             season
+                          </p>
+                        </h3>
+                        <a
+                          class="c13"
+                          href="/games/defy-death"
+                        >
+                          <span>
+                            Buy now
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="slick-dots"
+              style="display: block;"
+            >
+              <li
+                class="slick-active"
+              >
+                <button>
+                  1
+                </button>
+              </li>
+              <li
+                class=""
+              >
+                <button>
+                  2
+                </button>
+              </li>
+              <li
+                class=""
+              >
+                <button>
+                  3
+                </button>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+  </div>
+  <section
+    class="c32 c33"
+  >
+    <div
+      class="c0"
+    >
+      <h2
+        class="c34 c35"
+        color="white"
+      >
+        News
+      </h2>
+      <section
+        class="c36 c37"
+        color="black"
+      >
+        <section
+          class="c21"
+        >
+          <div
+            class="slick-slider slick-initialized"
+          >
+            
+            <div
+              class="slick-list"
+            >
+              <div
+                class="slick-track"
+                style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+              >
+                <div
+                  aria-hidden="false"
+                  class="slick-slide slick-active slick-current"
+                  data-index="0"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <article
+                      class="c38"
+                    >
+                      <div
+                        class="c39"
+                      >
+                        <img
+                          alt="Population Zero"
+                          src="https://source.unsplash.com/user/willianjusten/300x140"
+                        />
+                      </div>
+                      <div
+                        class="c40"
+                      >
+                        <div
+                          class="c41"
+                        >
+                          <h3
+                            class="c42"
+                          >
+                            Population Zero
+                          </h3>
+                          <h4
+                            class="c43"
+                          >
+                            Rockstar Games
+                          </h4>
+                        </div>
+                        <div
+                          class="c44"
+                        >
+                          <div
+                            class="c45"
+                          >
+                            R$ 235,00
+                          </div>
+                          <div
+                            class="c46"
+                          >
+                            R$ 215,00
+                          </div>
+                          <button
+                            aria-label="Add to Cart"
+                            class="c47"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="c4"
+                              fill="currentColor"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0V0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-8.9-5h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4l-3.87 7H8.53L4.27 2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <button
+                          class="c48"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            aria-label="Add to Wishlist"
+                            class="c4"
+                            fill="currentColor"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0 0h24v24H0V0z"
+                              fill="none"
+                            />
+                            <path
+                              d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </section>
+      </section>
+    </div>
+  </section>
+  <div
+    class="c0"
+  >
+    <section
+      class="c32"
+    >
+      <h2
+        class="c34 c35"
+        color="white"
+      >
+        Most Popular
+      </h2>
+      <div
+        class="c49 c50"
+      >
+        <div
+          class="c51 c52"
+        >
+          <h3
+            class="c53"
+          >
+            Read Dead it's back!
+          </h3>
+          <p
+            class="c54"
+          >
+            Come see John's new adventures
+          </p>
+          <a
+            class="c13"
+            href="/red-dead-redemption-2"
+          >
+            <span>
+              Buy now
+            </span>
+          </a>
+        </div>
+      </div>
+      <section
+        class="c36 c55"
+        color="white"
+      >
+        <section
+          class="c21"
+        >
+          <div
+            class="slick-slider slick-initialized"
+          >
+            
+            <div
+              class="slick-list"
+            >
+              <div
+                class="slick-track"
+                style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+              >
+                <div
+                  aria-hidden="false"
+                  class="slick-slide slick-active slick-current"
+                  data-index="0"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <article
+                      class="c38"
+                    >
+                      <div
+                        class="c39"
+                      >
+                        <img
+                          alt="Population Zero"
+                          src="https://source.unsplash.com/user/willianjusten/300x140"
+                        />
+                      </div>
+                      <div
+                        class="c40"
+                      >
+                        <div
+                          class="c41"
+                        >
+                          <h3
+                            class="c42"
+                          >
+                            Population Zero
+                          </h3>
+                          <h4
+                            class="c43"
+                          >
+                            Rockstar Games
+                          </h4>
+                        </div>
+                        <div
+                          class="c44"
+                        >
+                          <div
+                            class="c45"
+                          >
+                            R$ 235,00
+                          </div>
+                          <div
+                            class="c46"
+                          >
+                            R$ 215,00
+                          </div>
+                          <button
+                            aria-label="Add to Cart"
+                            class="c47"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="c4"
+                              fill="currentColor"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0V0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-8.9-5h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4l-3.87 7H8.53L4.27 2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <button
+                          class="c48"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            aria-label="Add to Wishlist"
+                            class="c4"
+                            fill="currentColor"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0 0h24v24H0V0z"
+                              fill="none"
+                            />
+                            <path
+                              d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </section>
+      </section>
+    </section>
+    <section
+      class="c32 c56"
+    >
+      <h2
+        class="c34 c35"
+        color="white"
+      >
+        Upcomming
+      </h2>
+      <section
+        class="c36 c55"
+        color="white"
+      >
+        <section
+          class="c21"
+        >
+          <div
+            class="slick-slider slick-initialized"
+          >
+            
+            <div
+              class="slick-list"
+            >
+              <div
+                class="slick-track"
+                style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+              >
+                <div
+                  aria-hidden="false"
+                  class="slick-slide slick-active slick-current"
+                  data-index="0"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <article
+                      class="c38"
+                    >
+                      <div
+                        class="c39"
+                      >
+                        <img
+                          alt="Population Zero"
+                          src="https://source.unsplash.com/user/willianjusten/300x140"
+                        />
+                      </div>
+                      <div
+                        class="c40"
+                      >
+                        <div
+                          class="c41"
+                        >
+                          <h3
+                            class="c42"
+                          >
+                            Population Zero
+                          </h3>
+                          <h4
+                            class="c43"
+                          >
+                            Rockstar Games
+                          </h4>
+                        </div>
+                        <div
+                          class="c44"
+                        >
+                          <div
+                            class="c45"
+                          >
+                            R$ 235,00
+                          </div>
+                          <div
+                            class="c46"
+                          >
+                            R$ 215,00
+                          </div>
+                          <button
+                            aria-label="Add to Cart"
+                            class="c47"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="c4"
+                              fill="currentColor"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0V0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-8.9-5h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4l-3.87 7H8.53L4.27 2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <button
+                          class="c48"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            aria-label="Add to Wishlist"
+                            class="c4"
+                            fill="currentColor"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0 0h24v24H0V0z"
+                              fill="none"
+                            />
+                            <path
+                              d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </section>
+      </section>
+      <div
+        class="c49 c50"
+      >
+        <div
+          class="c51 c52"
+        >
+          <h3
+            class="c53"
+          >
+            Read Dead it's back!
+          </h3>
+          <p
+            class="c54"
+          >
+            Come see John's new adventures
+          </p>
+          <a
+            class="c13"
+            href="/red-dead-redemption-2"
+          >
+            <span>
+              Buy now
+            </span>
+          </a>
+        </div>
+      </div>
+      <section
+        class="c36 c55"
+        color="white"
+      >
+        <section
+          class="c21"
+        >
+          <div
+            class="slick-slider slick-initialized"
+          >
+            
+            <div
+              class="slick-list"
+            >
+              <div
+                class="slick-track"
+                style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+              >
+                <div
+                  aria-hidden="false"
+                  class="slick-slide slick-active slick-current"
+                  data-index="0"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <article
+                      class="c38"
+                    >
+                      <div
+                        class="c39"
+                      >
+                        <img
+                          alt="Population Zero"
+                          src="https://source.unsplash.com/user/willianjusten/300x140"
+                        />
+                      </div>
+                      <div
+                        class="c40"
+                      >
+                        <div
+                          class="c41"
+                        >
+                          <h3
+                            class="c42"
+                          >
+                            Population Zero
+                          </h3>
+                          <h4
+                            class="c43"
+                          >
+                            Rockstar Games
+                          </h4>
+                        </div>
+                        <div
+                          class="c44"
+                        >
+                          <div
+                            class="c45"
+                          >
+                            R$ 235,00
+                          </div>
+                          <div
+                            class="c46"
+                          >
+                            R$ 215,00
+                          </div>
+                          <button
+                            aria-label="Add to Cart"
+                            class="c47"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="c4"
+                              fill="currentColor"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0V0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-8.9-5h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4l-3.87 7H8.53L4.27 2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <button
+                          class="c48"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            aria-label="Add to Wishlist"
+                            class="c4"
+                            fill="currentColor"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0 0h24v24H0V0z"
+                              fill="none"
+                            />
+                            <path
+                              d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </section>
+      </section>
+    </section>
+    <section
+      class="c32"
+    >
+      <h2
+        class="c34 c35"
+        color="white"
+      >
+        Free games
+      </h2>
+      <div
+        class="c49 c50"
+      >
+        <div
+          class="c51 c52"
+        >
+          <h3
+            class="c53"
+          >
+            Read Dead it's back!
+          </h3>
+          <p
+            class="c54"
+          >
+            Come see John's new adventures
+          </p>
+          <a
+            class="c13"
+            href="/red-dead-redemption-2"
+          >
+            <span>
+              Buy now
+            </span>
+          </a>
+        </div>
+      </div>
+      <section
+        class="c36 c55"
+        color="white"
+      >
+        <section
+          class="c21"
+        >
+          <div
+            class="slick-slider slick-initialized"
+          >
+            
+            <div
+              class="slick-list"
+            >
+              <div
+                class="slick-track"
+                style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+              >
+                <div
+                  aria-hidden="false"
+                  class="slick-slide slick-active slick-current"
+                  data-index="0"
+                  style="outline: none; width: 0px;"
+                  tabindex="-1"
+                >
+                  <div>
+                    <article
+                      class="c38"
+                    >
+                      <div
+                        class="c39"
+                      >
+                        <img
+                          alt="Population Zero"
+                          src="https://source.unsplash.com/user/willianjusten/300x140"
+                        />
+                      </div>
+                      <div
+                        class="c40"
+                      >
+                        <div
+                          class="c41"
+                        >
+                          <h3
+                            class="c42"
+                          >
+                            Population Zero
+                          </h3>
+                          <h4
+                            class="c43"
+                          >
+                            Rockstar Games
+                          </h4>
+                        </div>
+                        <div
+                          class="c44"
+                        >
+                          <div
+                            class="c45"
+                          >
+                            R$ 235,00
+                          </div>
+                          <div
+                            class="c46"
+                          >
+                            R$ 215,00
+                          </div>
+                          <button
+                            aria-label="Add to Cart"
+                            class="c47"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="c4"
+                              fill="currentColor"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0V0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-8.9-5h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4l-3.87 7H8.53L4.27 2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <button
+                          class="c48"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            aria-label="Add to Wishlist"
+                            class="c4"
+                            fill="currentColor"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M0 0h24v24H0V0z"
+                              fill="none"
+                            />
+                            <path
+                              d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </section>
+      </section>
+    </section>
+  </div>
+  <section
+    class="c57"
+  >
+    <div
+      class="c0"
+    >
+      <footer
+        class="c58"
+      >
+        <div
+          class="c59"
+          color="black"
+        >
+          <svg
+            aria-label="Won Games"
+            fill="none"
+            role="img"
+            viewBox="0 0 158 48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M.05 15.23L.02 35.87a6 6 0 009.33 5l20.6-13.72 20.54 13.8a6 6 0 009.34-4.97l.04-20A11.81 11.81 0 0044.75 4.62l-.87.25a50.87 50.87 0 01-29.36-.27A11.15 11.15 0 00.05 15.23z"
+              fill="url(#paint0_linear)"
+            />
+            <path
+              d="M30.16 27.16l-6.03-4.3a.5.5 0 00-.78.5l1.3 7.3 5.51-3.5z"
+              fill="#110F28"
+              fill-opacity=".15"
+            />
+            <path
+              d="M7.6 7.1c-5.12 2.76-4.53 5-4.53 7.5M57.27 26.1v1M3.05 18.1v2M57.27 30.1v5"
+              stroke="#fff"
+              stroke-linecap="round"
+              stroke-opacity=".4"
+              stroke-width="1.5"
+            />
+            <path
+              d="M13.05 15.1v6M10.04 18.1h6.02"
+              stroke="#0A0D27"
+              stroke-linecap="round"
+              stroke-width="2"
+            />
+            <ellipse
+              fill="#0A0D27"
+              rx="1.51"
+              ry="1.5"
+              transform="matrix(1 0 0 1 44.72 13.66)"
+            />
+            <ellipse
+              fill="#0A0D27"
+              rx="1.51"
+              ry="1.5"
+              transform="matrix(1 0 0 1 49.74 17.6)"
+            />
+            <ellipse
+              fill="#0A0D27"
+              rx="1.51"
+              ry="1.5"
+              transform="matrix(1 0 0 1 44.72 21.6)"
+            />
+            <ellipse
+              fill="#0A0D27"
+              rx="1.51"
+              ry="1.5"
+              transform="matrix(1 0 0 1 39.7 17.6)"
+            />
+            <path
+              class="text"
+              d="M79.26 12.63h-.06c-.68.1-1.2.44-1.56 1.02a2.36 2.36 0 00-.3 1.5v.03l1.38 9.33c.08.54.34 1 .78 1.35a2.27 2.27 0 001.77.45c.66-.1 1.17-.42 1.53-.96a2.05 2.05 0 00.36-1.5l-1.38-9.33a2.23 2.23 0 00-2.22-1.92l-.3.03zm18.78-.03c-.54 0-1.02.18-1.44.54-.44.36-.7.82-.78 1.38l-1.4 9.51a.88.88 0 00-.04.21c0 .52.17.98.51 1.38.36.46.84.73 1.44.81a2.15 2.15 0 001.98-.69c.3-.32.5-.7.57-1.14v-.06l1.38-9.36v-.03l.03-.3c0-.42-.12-.82-.36-1.2a2.1 2.1 0 00-1.53-1.02h-.06l-.3-.03zm-9.24 8.04h-.06a.99.99 0 00-.24.03 2.2 2.2 0 00-1.4.72l-.4.42-2.19 2.7-.72.84c-.28.34-.5.6-.69.75a3.26 3.26 0 01-1.74.9 3.19 3.19 0 01-1.53-.18c-.32-.12-.6-.29-.84-.5l.75 5.12v.06a3.8 3.8 0 00.18.66c.14.3.35.56.63.78.18.16.38.28.6.36.24.08.5.12.75.12h.1c.15 0 .3 0 .41-.03.46-.1.85-.32 1.17-.66l.3-.3 4.9-6.03 4.73 5.82.45.51c.38.38.83.61 1.35.7h.33c.28 0 .55-.06.81-.16.42-.18.77-.46 1.05-.84.18-.28.3-.59.36-.93v-.06l.75-5c-.34.3-.73.5-1.17.6a2.64 2.64 0 01-1.23.08 2.9 2.9 0 01-.8-.24 4.1 4.1 0 01-1-.75c-.26-.26-.59-.65-.99-1.17L90.9 21.9a5.15 5.15 0 00-.42-.48c-.2-.2-.39-.35-.57-.45a2 2 0 00-1.02-.33h-.09zm19.8.3a2.99 2.99 0 012.02-.8 3.04 3.04 0 012.49 1.35 5.91 5.91 0 012.13-3.16 5.73 5.73 0 013.6-1.23 5.7 5.7 0 014.23 1.77 5.76 5.76 0 011.74 4.23c0 1.66-.58 3.08-1.74 4.26a5.76 5.76 0 01-4.23 1.74 5.95 5.95 0 01-5.76-4.38c-.22.34-.5.63-.84.87-.5.3-1.04.45-1.62.45-.42 0-.83-.08-1.23-.24-.3-.14-.56-.32-.78-.54.5 2.42 1.7 4.42 3.63 6a10.17 10.17 0 006.6 2.34c1.9 0 3.65-.47 5.25-1.4a10.24 10.24 0 003.8-3.82 10.34 10.34 0 001.42-5.28c0-1.9-.47-3.65-1.41-5.25a10.18 10.18 0 00-3.81-3.84 10.18 10.18 0 00-5.25-1.4c-2.46 0-4.65.78-6.57 2.36a10.26 10.26 0 00-3.66 5.97zm2.02-.09c-.66 0-1.21.24-1.65.72-.24.24-.41.53-.51.87a2.61 2.61 0 000 1.32c.08.28.2.53.39.75.44.56 1.03.84 1.77.84.72 0 1.3-.27 1.74-.8.22-.27.37-.55.45-.85.04-.2.06-.4.06-.6 0-.18-.02-.35-.06-.5a2.19 2.19 0 00-.48-1 2.23 2.23 0 00-1.71-.75zm29.65-8.25c-.6 0-1.12.21-1.56.63-.46.44-.7.98-.7 1.62V21c.25-.28.54-.5.88-.66.42-.2.87-.3 1.35-.3h.06a3.03 3.03 0 012.37 1.14l9.8 11.55a2.1 2.1 0 001.78.87 2.2 2.2 0 001.68-.75c.38-.42.57-.92.57-1.5v-6.12a3.17 3.17 0 01-2.25.93c-.56 0-1.08-.13-1.56-.39-.34-.2-.63-.45-.87-.75l-9.87-11.67a2.46 2.46 0 00-.78-.57 2.26 2.26 0 00-.9-.18zm13.98 0c-.62 0-1.14.21-1.56.63-.46.44-.7.98-.7 1.62v8.7c0 .42.15.8.43 1.14a2.2 2.2 0 001.83.84c.54 0 1.02-.15 1.44-.45.52-.4.79-.9.8-1.53v-8.7a2.22 2.22 0 00-.8-1.7c-.42-.37-.9-.55-1.44-.55zm-14.01 8.07c-.6 0-1.11.2-1.53.57-.44.4-.67.88-.7 1.44v8.67c0 .5.16.95.46 1.35.46.6 1.06.9 1.8.9.64 0 1.18-.23 1.62-.69.42-.42.63-.94.63-1.56v-8.67a1.93 1.93 0 00-1.17-1.77 2.31 2.31 0 00-1.05-.24h-.06z"
+              fill="currentColor"
+            />
+            <defs>
+              <lineargradient
+                gradientUnits="userSpaceOnUse"
+                id="paint0_linear"
+                x1="29.16"
+                x2="30.15"
+                y1="-7.4"
+                y2="49.1"
+              >
+                <stop
+                  stop-color="#FF5F5F"
+                />
+                <stop
+                  offset="1"
+                  stop-color="#F062C0"
+                />
+                <stop
+                  offset="1"
+                  stop-color="#F23131"
+                />
+              </lineargradient>
+            </defs>
+          </svg>
+        </div>
+        <div
+          class="c60"
+        >
+          <div
+            class="c61"
+          >
+            <h2
+              class="c34 c62"
+              color="black"
+            >
+              Contact us
+            </h2>
+            <a
+              href="mailto:sac@wongames.com"
+            >
+              sac@wongames.com
+            </a>
+            <a
+              href="tel:+55016999991111"
+            >
+              +55 16 99999-1111
+            </a>
+          </div>
+          <div
+            class="c61"
+          >
+            <h2
+              class="c34 c62"
+              color="black"
+            >
+              Follow us
+            </h2>
+            <nav
+              aria-labelledby="social media"
+            >
+              <a
+                href="https://www.instagram.com/won-games"
+                rel="noopenner, noreferrer"
+                target="_blank"
+              >
+                Instagram
+              </a>
+              <a
+                href="https://www.twitter.com/won-games"
+                rel="noopenner, noreferrer"
+                target="_blank"
+              >
+                Twitter
+              </a>
+              <a
+                href="https://www.youtube.com/won-games"
+                rel="noopenner, noreferrer"
+                target="_blank"
+              >
+                Youtube
+              </a>
+              <a
+                href="https://www.facebook.com/won-games"
+                rel="noopenner, noreferrer"
+                target="_blank"
+              >
+                Facebook
+              </a>
+            </nav>
+          </div>
+          <div
+            class="c61"
+          >
+            <h2
+              class="c34 c62"
+              color="black"
+            >
+              Links
+            </h2>
+            <nav
+              aria-labelledby="footer resources"
+            >
+              <a
+                href="/"
+              >
+                Home
+              </a>
+              <a
+                href="/games"
+              >
+                Store
+              </a>
+              <a
+                href="/search"
+              >
+                Buscar
+              </a>
+            </nav>
+          </div>
+          <div
+            aria-labelledby="footer-contact"
+            class="c61"
+          >
+            <h2
+              class="c34 c62"
+              color="black"
+            >
+              Location
+            </h2>
+            <address>
+              <span>
+                Av. Bandeirantes, 3500
+              </span>
+              <span>
+                Vila do Chaves, 14801000
+              </span>
+              <span>
+                Araraquara - SP
+              </span>
+            </address>
+          </div>
+        </div>
+        <p
+          class="c63"
+        >
+          Won Games 2020 © All rights reserved.
+        </p>
+      </footer>
+    </div>
+  </section>
+</section>
+`;

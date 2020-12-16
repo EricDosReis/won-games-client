@@ -13,12 +13,9 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
         <link rel="manifest" href="/manifest.json" />
 
-        <meta
-          name="description"
-          content="A simple boilerplate to work with NextJS, TypeScript, React, Jest and Styled Components"
-        />
+        <meta name="description" content="The best game store of the world" />
 
-        <title>NextJS - Boilerplate</title>
+        <title>Won Games</title>
       </Head>
 
       <GlobalStyles />
