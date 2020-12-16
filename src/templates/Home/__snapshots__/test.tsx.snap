@@ -424,10 +424,6 @@ exports[`<Home /> should render the home 1`] = `
   border-bottom: 0.2rem solid #F231A5;
 }
 
-.c9 {
-  margin-left: 2.4rem;
-}
-
 .c2 {
   display: none;
 }
@@ -1005,6 +1001,12 @@ exports[`<Home /> should render the home 1`] = `
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
+  }
+}
+
+@media (min-width:768px) {
+  .c9 {
+    margin-left: 2.4rem;
   }
 }
 
