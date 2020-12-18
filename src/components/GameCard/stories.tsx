@@ -16,7 +16,7 @@ export default {
       type: 'string',
     },
     onFavorite: {
-      action: 'onFavorite clicked!',
+      action: 'onFavorite clicked',
     },
   },
   parameters: {
