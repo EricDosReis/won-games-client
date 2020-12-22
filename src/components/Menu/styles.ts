@@ -81,34 +81,34 @@ export const MenuFull = styled.nav<MenuFullProps>`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
+    height: 100vh;
+    opacity: ${isOpen ? 1 : 0};
+    overflow: hidden;
+    pointer-events: ${isOpen ? 'all' : 'none'};
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    height: 100vh;
-    overflow: hidden;
     transition: opacity 0.15s ease-in-out;
-
-    opacity: ${isOpen ? 1 : 0};
-    pointer-events: ${isOpen ? 'all' : 'none'};
+    z-index: ${theme.layers.base};
 
     > svg {
       cursor: pointer;
       height: 2.4rem;
       width: 2.4rem;
+      margin: ${theme.spacings.xsmall};
       position: absolute;
       top: 0;
       right: 0;
-      margin: ${theme.spacings.xsmall};
     }
 
     ${MenuNav} {
       display: flex;
       flex-direction: column;
+      flex: 1;
       align-items: center;
       justify-content: center;
-      flex: 1;
       margin: 0;
     }
 
