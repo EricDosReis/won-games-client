@@ -28,7 +28,8 @@ export const FormLink = styled.div`
       text-decoration: none;
       transition: color, border, ${theme.transition.fast};
 
-      &:hover {
+      &:hover,
+      &:focus {
         border-bottom: 0.1rem solid ${darken(0.1, theme.colors.secondary)};
         color: ${darken(0.1, theme.colors.secondary)};
       }
