@@ -117,7 +117,8 @@ exports[`<FormSignUp /> should render the form 1`] = `
   transition: color,border,0.1s ease-in-out;
 }
 
-.c10 a:hover {
+.c10 a:hover,
+.c10 a:focus {
   border-bottom: 0.1rem solid #29b3a3;
   color: #29b3a3;
 }

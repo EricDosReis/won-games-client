@@ -103,8 +103,9 @@ exports[`<FormSignIn /> should render the form 1`] = `
   text-align: right;
 }
 
-.c8:hover {
-  color: #0f1971;
+.c8:hover,
+.c8:focus {
+  color: #15229e;
 }
 
 .c0 .c1 {
@@ -130,7 +131,8 @@ exports[`<FormSignIn /> should render the form 1`] = `
   transition: color,border,0.1s ease-in-out;
 }
 
-.c11 a:hover {
+.c11 a:hover,
+.c11 a:focus {
   border-bottom: 0.1rem solid #29b3a3;
   color: #29b3a3;
 }

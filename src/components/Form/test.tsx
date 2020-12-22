@@ -36,7 +36,8 @@ describe('<Form />', () => {
         transition: color,border,0.1s ease-in-out;
       }
 
-      .c1 a:hover {
+      .c1 a:hover,
+      .c1 a:focus {
         border-bottom: 0.1rem solid #29b3a3;
         color: #29b3a3;
       }
