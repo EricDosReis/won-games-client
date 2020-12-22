@@ -12,12 +12,20 @@ describe('<Logo />', () => {
     });
   });
 
-  it('should render a black label by default', () => {
+  it('should render a black label', () => {
     renderWithTheme(<Logo color="black" />);
 
     expect(screen.getByLabelText(/Won Games/i).parentElement).toHaveStyle({
       color: '#030517',
     });
+  });
+
+  it('should render the logo with id passed', () => {
+    const { container } = renderWithTheme(<Logo id="logo-id" />);
+
+    expect(
+      container.querySelector('#paint_linear_logo-id'),
+    ).toBeInTheDocument();
   });
 
   it('should render a normal logo when size is default', () => {
