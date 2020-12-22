@@ -333,27 +333,28 @@ exports[`<Home /> should render the home 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  position: absolute;
+  height: 100vh;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  height: 100vh;
-  overflow: hidden;
   -webkit-transition: opacity 0.15s ease-in-out;
   transition: opacity 0.15s ease-in-out;
-  opacity: 0;
-  pointer-events: none;
+  z-index: 10;
 }
 
 .c14 > svg {
   cursor: pointer;
   height: 2.4rem;
   width: 2.4rem;
+  margin: 1.6rem;
   position: absolute;
   top: 0;
   right: 0;
-  margin: 1.6rem;
 }
 
 .c14 .c8 {
@@ -364,6 +365,9 @@ exports[`<Home /> should render the home 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -372,9 +376,6 @@ exports[`<Home /> should render the home 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   margin: 0;
 }
 
@@ -1376,13 +1377,14 @@ exports[`<Home /> should render the home 1`] = `
         <div
           class="c7"
         >
-          <button
+          <a
             class="c13"
+            href="/sign-in"
           >
             <span>
               Sign in
             </span>
-          </button>
+          </a>
         </div>
       </div>
       <nav
@@ -1425,20 +1427,20 @@ exports[`<Home /> should render the home 1`] = `
         <div
           class="c15 c16"
         >
-          <button
+          <a
             class="c17"
+            href="/sign-in"
           >
             <span>
-              Log in now
+              Sign in
             </span>
-          </button>
+          </a>
           <span>
             or
           </span>
           <a
             class="c18"
-            href="#"
-            title="Sign up"
+            href="/sign-up"
           >
             Sign up
           </a>
@@ -1951,7 +1953,7 @@ exports[`<Home /> should render the home 1`] = `
         class="c34 c35"
         color="white"
       >
-        Upcomming
+        Upcoming
       </h2>
       <section
         class="c36 c55"

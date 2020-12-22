@@ -49,6 +49,11 @@ export const BannerContent = styled.div`
       ${theme.spacings.small};
     position: relative;
     z-index: ${theme.layers.base};
+
+    a {
+      height: fit-content;
+      width: fit-content;
+    }
   `}
 `;
 
