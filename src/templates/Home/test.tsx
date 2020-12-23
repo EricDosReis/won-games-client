@@ -10,45 +10,39 @@ import Home from '.';
 
 const props = {
   banners: bannerMock,
-  newGames: [gamesMock[0]],
+  newGames: gamesMock,
   mostPopularHighlight: highlightMock,
-  mostPopularGames: [gamesMock[0]],
-  upcomingGames: [gamesMock[0]],
+  mostPopularGames: gamesMock,
+  upcomingGames: gamesMock,
   upcomingHighlight: highlightMock,
-  upcomingMoreGames: [gamesMock[0]],
-  freeGames: [gamesMock[0]],
+  upcomingMoreGames: gamesMock,
+  freeGames: gamesMock,
   freeHighlight: highlightMock,
 };
 
+jest.mock('components/Showcase', () => {
+  return {
+    __esModule: true,
+    default: function Mock() {
+      return <div data-testid="Mock Showcase"></div>;
+    },
+  };
+});
+
+jest.mock('components/BannerSlider', () => {
+  return {
+    __esModule: true,
+    default: function Mock() {
+      return <div data-testid="Mock Banner Slider"></div>;
+    },
+  };
+});
+
 describe('<Home />', () => {
-  it('should render the home', () => {
-    const { container } = renderWithTheme(<Home {...props} />);
+  it('should render banner and showcases', () => {
+    renderWithTheme(<Home {...props} />);
 
-    expect(screen.getByLabelText(/open menu/i)).toBeInTheDocument();
-
-    expect(
-      screen.getByRole('heading', { name: /follow us/i }),
-    ).toBeInTheDocument();
-
-    expect(screen.getAllByRole('img', { name: /won games/i })).toHaveLength(2);
-    expect(screen.getByRole('heading', { name: /news/i })).toBeInTheDocument();
-
-    expect(
-      screen.getByRole('heading', { name: /most popular/i }),
-    ).toBeInTheDocument();
-
-    expect(
-      screen.getByRole('heading', { name: /upcoming/i }),
-    ).toBeInTheDocument();
-
-    expect(
-      screen.getByRole('heading', { name: /free games/i }),
-    ).toBeInTheDocument();
-
-    expect(screen.getAllByText(/defy death 1/i)).toHaveLength(1);
-    expect(screen.getAllByText(/population zero/i)).toHaveLength(5);
-    expect(screen.getAllByText(/read dead it's back!/i)).toHaveLength(3);
-
-    expect(container.firstChild).toMatchSnapshot();
+    expect(screen.getByTestId('Mock Banner Slider')).toBeInTheDocument();
+    expect(screen.getAllByTestId('Mock Showcase')).toHaveLength(5);
   });
 });
