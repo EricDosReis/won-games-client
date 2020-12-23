@@ -157,6 +157,8 @@ exports[`<Home /> should render the home 1`] = `
 
 .c35 {
   color: #FAFAFA;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
   border-left: 0.7rem solid #3CD3C1;
   padding-left: 0.8rem;
   font-size: 2.0rem;
@@ -164,6 +166,8 @@ exports[`<Home /> should render the home 1`] = `
 
 .c62 {
   color: #030517;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
   position: relative;
   margin-bottom: 3.2rem;
   font-size: 1.6rem;
@@ -329,27 +333,28 @@ exports[`<Home /> should render the home 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  position: absolute;
+  height: 100vh;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  height: 100vh;
-  overflow: hidden;
   -webkit-transition: opacity 0.15s ease-in-out;
   transition: opacity 0.15s ease-in-out;
-  opacity: 0;
-  pointer-events: none;
+  z-index: 10;
 }
 
 .c14 > svg {
   cursor: pointer;
   height: 2.4rem;
   width: 2.4rem;
+  margin: 1.6rem;
   position: absolute;
   top: 0;
   right: 0;
-  margin: 1.6rem;
 }
 
 .c14 .c8 {
@@ -360,6 +365,9 @@ exports[`<Home /> should render the home 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -368,9 +376,6 @@ exports[`<Home /> should render the home 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   margin: 0;
 }
 
@@ -1230,7 +1235,7 @@ exports[`<Home /> should render the home 1`] = `
           >
             <path
               d="M.05 15.23L.02 35.87a6 6 0 009.33 5l20.6-13.72 20.54 13.8a6 6 0 009.34-4.97l.04-20A11.81 11.81 0 0044.75 4.62l-.87.25a50.87 50.87 0 01-29.36-.27A11.15 11.15 0 00.05 15.23z"
-              fill="url(#paint0_linear)"
+              fill="url(#paint_linear_logo)"
             />
             <path
               d="M30.16 27.16l-6.03-4.3a.5.5 0 00-.78.5l1.3 7.3 5.51-3.5z"
@@ -1282,7 +1287,7 @@ exports[`<Home /> should render the home 1`] = `
             <defs>
               <lineargradient
                 gradientUnits="userSpaceOnUse"
-                id="paint0_linear"
+                id="paint_linear_logo"
                 x1="29.16"
                 x2="30.15"
                 y1="-7.4"
@@ -1372,13 +1377,14 @@ exports[`<Home /> should render the home 1`] = `
         <div
           class="c7"
         >
-          <button
+          <a
             class="c13"
+            href="/sign-in"
           >
             <span>
               Sign in
             </span>
-          </button>
+          </a>
         </div>
       </div>
       <nav
@@ -1421,20 +1427,20 @@ exports[`<Home /> should render the home 1`] = `
         <div
           class="c15 c16"
         >
-          <button
+          <a
             class="c17"
+            href="/sign-in"
           >
             <span>
-              Log in now
+              Sign in
             </span>
-          </button>
+          </a>
           <span>
             or
           </span>
           <a
             class="c18"
-            href="#"
-            title="Sign up"
+            href="/sign-up"
           >
             Sign up
           </a>
@@ -1947,7 +1953,7 @@ exports[`<Home /> should render the home 1`] = `
         class="c34 c35"
         color="white"
       >
-        Upcomming
+        Upcoming
       </h2>
       <section
         class="c36 c55"
@@ -2398,7 +2404,7 @@ exports[`<Home /> should render the home 1`] = `
           >
             <path
               d="M.05 15.23L.02 35.87a6 6 0 009.33 5l20.6-13.72 20.54 13.8a6 6 0 009.34-4.97l.04-20A11.81 11.81 0 0044.75 4.62l-.87.25a50.87 50.87 0 01-29.36-.27A11.15 11.15 0 00.05 15.23z"
-              fill="url(#paint0_linear)"
+              fill="url(#paint_linear_logo)"
             />
             <path
               d="M30.16 27.16l-6.03-4.3a.5.5 0 00-.78.5l1.3 7.3 5.51-3.5z"
@@ -2450,7 +2456,7 @@ exports[`<Home /> should render the home 1`] = `
             <defs>
               <lineargradient
                 gradientUnits="userSpaceOnUse"
-                id="paint0_linear"
+                id="paint_linear_logo"
                 x1="29.16"
                 x2="30.15"
                 y1="-7.4"

@@ -3,6 +3,8 @@
 exports[`<Footer /> should render 4 column topics 1`] = `
 .c5 {
   color: #030517;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
   position: relative;
   margin-bottom: 3.2rem;
   font-size: 1.6rem;
@@ -87,7 +89,7 @@ exports[`<Footer /> should render 4 column topics 1`] = `
     >
       <path
         d="M.05 15.23L.02 35.87a6 6 0 009.33 5l20.6-13.72 20.54 13.8a6 6 0 009.34-4.97l.04-20A11.81 11.81 0 0044.75 4.62l-.87.25a50.87 50.87 0 01-29.36-.27A11.15 11.15 0 00.05 15.23z"
-        fill="url(#paint0_linear)"
+        fill="url(#paint_linear_logo)"
       />
       <path
         d="M30.16 27.16l-6.03-4.3a.5.5 0 00-.78.5l1.3 7.3 5.51-3.5z"
@@ -139,7 +141,7 @@ exports[`<Footer /> should render 4 column topics 1`] = `
       <defs>
         <lineargradient
           gradientUnits="userSpaceOnUse"
-          id="paint0_linear"
+          id="paint_linear_logo"
           x1="29.16"
           x2="30.15"
           y1="-7.4"
