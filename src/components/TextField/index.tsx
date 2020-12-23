@@ -14,10 +14,10 @@ export type TextFieldProps = {
 } & Omit<InputHTMLAttributes<HTMLInputElement>, 'onInput'>;
 
 const TextField = ({
+  onInput,
   label,
   labelFor = '',
   initialValue = '',
-  onInput,
   icon,
   iconPosition = 'left',
   disabled = false,
