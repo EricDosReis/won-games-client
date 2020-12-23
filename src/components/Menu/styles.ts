@@ -91,7 +91,7 @@ export const MenuFull = styled.nav<MenuFullProps>`
     bottom: 0;
     left: 0;
     transition: opacity 0.15s ease-in-out;
-    z-index: ${theme.layers.base};
+    z-index: ${theme.layers.menu};
 
     > svg {
       cursor: pointer;

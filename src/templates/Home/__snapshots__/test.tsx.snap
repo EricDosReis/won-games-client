@@ -344,7 +344,7 @@ exports[`<Home /> should render the home 1`] = `
   left: 0;
   -webkit-transition: opacity 0.15s ease-in-out;
   transition: opacity 0.15s ease-in-out;
-  z-index: 10;
+  z-index: 20;
 }
 
 .c14 > svg {
