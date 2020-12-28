@@ -4,7 +4,7 @@ import GameInfo, { GameInfoProps } from '.';
 import mock from './mock';
 
 export default {
-  title: 'GameInfo',
+  title: 'Game/GameInfo',
   component: GameInfo,
   parameters: {
     backgrounds: {
@@ -15,7 +15,7 @@ export default {
 } as Meta;
 
 export const Basic: Story<GameInfoProps> = args => (
-  <div style={{ maxWidth: '104rem', margin: '0 auto', padding: '1rem' }}>
+  <div style={{ maxWidth: '130rem', margin: '0 auto', padding: '1rem' }}>
     <GameInfo {...args} />
   </div>
 );
