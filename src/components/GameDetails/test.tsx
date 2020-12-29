@@ -57,6 +57,12 @@ describe('<GameDetails />', () => {
     expect(screen.getByText(/nov 21, 2020/i)).toBeInTheDocument();
   });
 
+  it('should render the publisher', () => {
+    renderWithTheme(<GameDetails {...props} />);
+
+    expect(screen.getByText(/2k/i)).toBeInTheDocument();
+  });
+
   it('should render free rating when BR0', () => {
     renderWithTheme(<GameDetails {...props} />);
 
