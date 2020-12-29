@@ -8,7 +8,7 @@ export default {
     <h5>Heading</h5>
     <h6>Heading</h6>
 
-    <img alt="" src="/img/text-content-1.jpg" />
+    <img alt="" src="/img/game-1.jpg" />
 
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
@@ -24,7 +24,7 @@ export default {
       sint quis ad quibusdam?
     </p>
 
-    <img alt="" src="/img/text-content-2.jpg" />
+    <img alt="" src="/img/game-2.jpg" />
 
     <ul>
       <li>Lorem Ipsum</li>
