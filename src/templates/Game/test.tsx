@@ -79,7 +79,7 @@ describe('<Game />', () => {
   it('should render the cover image', () => {
     renderWithTheme(<Game {...props} />);
 
-    const cover = screen.getByRole('image', { name: /cover/i });
+    const cover = screen.getByRole('img', { name: /cover/i });
 
     expect(cover).toHaveStyle({
       backgroundImage: 'url(bg-image.jpg)',

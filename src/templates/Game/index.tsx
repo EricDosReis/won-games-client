@@ -10,6 +10,7 @@ import TextContent from 'components/TextContent';
 import Showcase from 'components/Showcase';
 
 import * as S from './styles';
+import Divider from 'components/Divider';
 
 export type GameTemplateProps = {
   cover: string;
@@ -33,7 +34,7 @@ const Game = ({
   recommendedGames,
 }: GameTemplateProps) => (
   <Base>
-    <S.Cover src={cover} role="image" aria-label="cover" />
+    <S.Cover src={cover} role="img" aria-label="cover" />
 
     <S.Content>
       <Container>
@@ -54,6 +55,8 @@ const Game = ({
         <Section>
           <GameDetails {...details} />
         </Section>
+
+        <Divider />
 
         <Showcase
           title="Upcoming"
