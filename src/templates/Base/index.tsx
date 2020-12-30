@@ -9,19 +9,19 @@ export type BaseTemplateProps = {
 };
 
 const Base = ({ children }: BaseTemplateProps) => (
-  <>
+  <S.Wrapper>
     <Container>
       <Menu />
     </Container>
 
-    <main>{children}</main>
+    <S.Content>{children}</S.Content>
 
     <S.FooterWrapper>
       <Container>
         <Footer />
       </Container>
     </S.FooterWrapper>
-  </>
+  </S.Wrapper>
 );
 
 export default Base;
