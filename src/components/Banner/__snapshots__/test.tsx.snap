@@ -204,7 +204,7 @@ exports[`<Banner /> should render the banner with ribbon 1`] = `
   font-size: 1.2rem;
   height: 2.6rem;
   padding: 0 1.6rem;
-  right: -1.5rem;
+  right: -1rem;
 }
 
 .c2::before {
@@ -224,8 +224,8 @@ exports[`<Banner /> should render the banner with ribbon 1`] = `
 }
 
 .c2::before {
-  border-top-width: 0.7rem;
-  border-right-width: 1.5rem;
+  border-top-width: 0.5rem;
+  border-right-width: 1rem;
   top: 2.6rem;
 }
 

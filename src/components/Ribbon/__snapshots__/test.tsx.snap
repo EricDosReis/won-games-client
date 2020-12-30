@@ -18,7 +18,7 @@ exports[`<Ribbon /> should render the text correctly 1`] = `
   font-size: 1.4rem;
   height: 3.6rem;
   padding: 0 2.4rem;
-  right: -2rem;
+  right: -1.5rem;
 }
 
 .c0::before {
@@ -38,8 +38,8 @@ exports[`<Ribbon /> should render the text correctly 1`] = `
 }
 
 .c0::before {
-  border-top-width: 1rem;
-  border-right-width: 2rem;
+  border-top-width: 0.7rem;
+  border-right-width: 1.5rem;
   top: 3.6rem;
 }
 

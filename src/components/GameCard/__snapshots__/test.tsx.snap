@@ -305,7 +305,7 @@ exports[`<GameCard /> should render the game card with ribbon 1`] = `
   font-size: 1.2rem;
   height: 2.6rem;
   padding: 0 1.6rem;
-  right: -1.5rem;
+  right: -1rem;
 }
 
 .c1::before {
@@ -325,8 +325,8 @@ exports[`<GameCard /> should render the game card with ribbon 1`] = `
 }
 
 .c1::before {
-  border-top-width: 0.7rem;
-  border-right-width: 1.5rem;
+  border-top-width: 0.5rem;
+  border-right-width: 1rem;
   top: 2.6rem;
 }
 
