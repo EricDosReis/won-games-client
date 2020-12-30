@@ -4,7 +4,7 @@ import galleryMock from 'components/Gallery/mock';
 import gamesMock from 'components/GameCardSlider/mock';
 import highlightMock from 'components/Highlight/mock';
 
-export default function Index(props: GameTemplateProps) {
+export default function GamePage(props: GameTemplateProps) {
   return <Game {...props} />;
 }
 
