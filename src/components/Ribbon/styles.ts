@@ -17,11 +17,11 @@ const wrapperModifiers = {
     font-size: ${theme.font.sizes.xsmall};
     height: 2.6rem;
     padding: 0 ${theme.spacings.xsmall};
-    right: -1.5rem;
+    right: -1rem;
 
     &::before {
-      border-top-width: 0.7rem;
-      border-right-width: 1.5rem;
+      border-top-width: 0.5rem;
+      border-right-width: 1rem;
       top: 2.6rem;
     }
   `,
@@ -30,11 +30,11 @@ const wrapperModifiers = {
     font-size: ${theme.font.sizes.small};
     height: 3.6rem;
     padding: 0 ${theme.spacings.small};
-    right: -2rem;
+    right: -1.5rem;
 
     &::before {
-      border-top-width: 1rem;
-      border-right-width: 2rem;
+      border-top-width: 0.7rem;
+      border-right-width: 1.5rem;
       top: 3.6rem;
     }
   `,
