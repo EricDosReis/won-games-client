@@ -1,4 +1,7 @@
-import { AddShoppingCart } from '@styled-icons/material-outlined';
+import {
+  AddShoppingCart,
+  FavoriteBorder,
+} from '@styled-icons/material-outlined';
 import Button from 'components/Button';
 import Heading from 'components/Heading';
 import Ribbon from 'components/Ribbon';
@@ -26,7 +29,7 @@ const GameInfo = ({ title, description, price }: GameInfoProps) => (
         Add to cart
       </Button>
 
-      <Button icon={<AddShoppingCart />} size="large" minimal>
+      <Button icon={<FavoriteBorder />} size="large" minimal>
         Wishlist
       </Button>
     </S.ButtonsWrapper>
