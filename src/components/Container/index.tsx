@@ -7,6 +7,7 @@ const Container = styled.div`
     max-width: ${theme.grid.container};
     padding-right: calc(${theme.grid.gutter} / 2);
     padding-left: calc(${theme.grid.gutter} / 2);
+    width: 100%;
   `}
 `;
 

@@ -3,7 +3,7 @@ import { renderWithTheme } from 'utils/tests/helpers';
 import Container from '.';
 
 describe('<Container />', () => {
-  it('should render the heading', () => {
+  it('should render the container', () => {
     const { container } = renderWithTheme(
       <Container>
         <p>Won Games</p>
@@ -19,6 +19,7 @@ describe('<Container />', () => {
         max-width: 130rem;
         padding-right: calc(3.2rem / 2);
         padding-left: calc(3.2rem / 2);
+        width: 100%;
       }
 
       <div

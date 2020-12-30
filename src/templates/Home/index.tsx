@@ -40,21 +40,27 @@ const Home = ({
     </Container>
 
     <S.SectionNews>
-      <Showcase title="News" games={newGames} />
+      <Container>
+        <Showcase title="News" games={newGames} />
+      </Container>
     </S.SectionNews>
 
-    <Showcase
-      title="Most popular"
-      highlight={mostPopularHighlight}
-      games={mostPopularGames}
-    />
+    <Container>
+      <Showcase
+        title="Most popular"
+        highlight={mostPopularHighlight}
+        games={mostPopularGames}
+      />
 
-    <S.SectionUpcoming>
       <Showcase title="Upcoming" games={upcomingGames} />
       <Showcase highlight={upcomingHighlight} games={upcomingMoreGames} />
-    </S.SectionUpcoming>
 
-    <Showcase title="Free games" highlight={freeHighlight} games={freeGames} />
+      <Showcase
+        title="Free games"
+        highlight={freeHighlight}
+        games={freeGames}
+      />
+    </Container>
   </Base>
 );
 
