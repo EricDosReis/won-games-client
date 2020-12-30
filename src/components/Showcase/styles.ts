@@ -1,15 +1,13 @@
 import styled, { css } from 'styled-components';
 import media from 'styled-media-query';
 
-import Container from 'components/Container';
+import Section from 'components/Section';
 import * as HeadingStyles from 'components/Heading/styles';
 import * as GameCardSliderStyles from 'components/GameCardSlider/styles';
 import * as HighlightStyles from 'components/Highlight/styles';
 
-export const Wrapper = styled(Container).attrs({ as: 'section' })`
+export const Wrapper = styled(Section)`
   ${({ theme }) => css`
-    margin-bottom: calc(${theme.spacings.large} * 2);
-
     ${HeadingStyles.Wrapper},
     ${HighlightStyles.Wrapper},
     ${GameCardSliderStyles.Wrapper} {
