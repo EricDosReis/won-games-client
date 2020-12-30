@@ -9,7 +9,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.main`
-  flex: 1 0 auto;
+  ${({ theme }) => css`
+    flex: 1 0 auto;
+    margin-top: ${theme.spacings.xlarge};
+  `}
 `;
 
 export const FooterWrapper = styled.div`

@@ -4,7 +4,7 @@ import media from 'styled-media-query';
 import * as GalleryStyles from 'components/Gallery/styles';
 
 export const Content = styled.div`
-  margin-top: 20rem;
+  margin-top: 16rem;
 
   ${GalleryStyles.Wrapper} {
     ${media.lessThan('medium')`
