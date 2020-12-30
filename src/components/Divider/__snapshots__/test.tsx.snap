@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Divider /> should render the heading 1`] = `
+.c0 {
+  background: rgba(181,181,181,0.3);
+  border: 0;
+  height: 0.1rem;
+  margin: 4.8rem auto;
+}
+
+<hr
+  class="c0"
+/>
+`;
