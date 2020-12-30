@@ -63,6 +63,12 @@ describe('<GameDetails />', () => {
     expect(screen.getByText(/2k/i)).toBeInTheDocument();
   });
 
+  it('should render the developer', () => {
+    renderWithTheme(<GameDetails {...props} />);
+
+    expect(screen.getByText(/Different Tales/i)).toBeInTheDocument();
+  });
+
   it('should render free rating when BR0', () => {
     renderWithTheme(<GameDetails {...props} />);
 
