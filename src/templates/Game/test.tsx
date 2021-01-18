@@ -10,7 +10,6 @@ import gameInfoMock from 'components/GameInfo/mock';
 import gameDetailsMock from 'components/GameDetails/mock';
 import gamesMock from 'components/GameCardSlider/mock';
 import highlightMock from 'components/Highlight/mock';
-
 import { GameDetailsProps } from 'components/GameDetails';
 
 const props: GameTemplateProps = {
