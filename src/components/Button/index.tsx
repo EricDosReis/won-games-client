@@ -7,6 +7,7 @@ type ButtonTypes =
   | ButtonHTMLAttributes<HTMLButtonElement>;
 
 export type ButtonProps = {
+  disabled?: boolean;
   size?: 'small' | 'medium' | 'large';
   fullWidth?: boolean;
   minimal?: boolean;
@@ -16,6 +17,7 @@ export type ButtonProps = {
 
 const Button: React.ForwardRefRenderFunction<S.WrapperProps, ButtonProps> = (
   {
+    disabled,
     children,
     size = 'medium',
     fullWidth = false,
@@ -26,6 +28,7 @@ const Button: React.ForwardRefRenderFunction<S.WrapperProps, ButtonProps> = (
   ref,
 ) => (
   <S.Wrapper
+    disabled={disabled}
     size={size}
     fullWidth={fullWidth}
     hasIcon={!!icon}
