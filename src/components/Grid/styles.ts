@@ -3,7 +3,7 @@ import media from 'styled-media-query';
 
 import { GridProps } from '.';
 
-const modifiers = {
+const wrapperModifiers = {
   columns: (columns: number) => css`
     grid-template-columns: repeat(${columns}, 1fr);
   `,
@@ -43,11 +43,11 @@ export const Wrapper = styled.div<GridProps>`
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     gap: ${theme.grid.gutter};
 
-    ${!!columns && modifiers.columns(columns)}
-    ${!!custom && modifiers.custom(custom)};
-    ${!!xs && modifiers.xs(xs)};
-    ${!!sm && modifiers.sm(sm)};
-    ${!!md && modifiers.md(md)};
-    ${!!lg && modifiers.lg(lg)};
+    ${!!columns && wrapperModifiers.columns(columns)}
+    ${!!custom && wrapperModifiers.custom(custom)};
+    ${!!xs && wrapperModifiers.xs(xs)};
+    ${!!sm && wrapperModifiers.sm(sm)};
+    ${!!md && wrapperModifiers.md(md)};
+    ${!!lg && wrapperModifiers.lg(lg)};
   `};
 `;
