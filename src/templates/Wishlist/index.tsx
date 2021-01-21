@@ -28,7 +28,7 @@ const Wishlist = ({
 
       <Section>
         {games.length ? (
-          <Grid>
+          <Grid custom="repeat(auto-fill, minmax(25rem, 1fr))">
             {games.map((game, index) => (
               <GameCard key={`wishlist-${index}`} {...game} />
             ))}
