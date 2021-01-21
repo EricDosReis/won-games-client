@@ -9,7 +9,7 @@ import TextField from '.';
 describe('<TextField />', () => {
   it('should render with label', () => {
     const { container } = renderWithTheme(
-      <TextField label="Label" labelFor="Field" id="Field" />,
+      <TextField label="Label" name="field" id="field" />,
     );
 
     expect(screen.getByLabelText('Label')).toBeInTheDocument();
@@ -32,12 +32,7 @@ describe('<TextField />', () => {
     const onInput = jest.fn();
 
     renderWithTheme(
-      <TextField
-        onInput={onInput}
-        label="TextField"
-        labelFor="TextField"
-        id="TextField"
-      />,
+      <TextField onInput={onInput} label="Text Field" name="field" />,
     );
 
     const input = screen.getByRole('textbox');
@@ -56,13 +51,7 @@ describe('<TextField />', () => {
     const onInput = jest.fn();
 
     renderWithTheme(
-      <TextField
-        onInput={onInput}
-        label="TextField"
-        labelFor="TextField"
-        id="TextField"
-        disabled
-      />,
+      <TextField onInput={onInput} label="Text Field" name="field" disabled />,
     );
 
     const input = screen.getByRole('textbox');
@@ -80,16 +69,9 @@ describe('<TextField />', () => {
   });
 
   it('should not be accessible by tab when disabled', () => {
-    renderWithTheme(
-      <TextField
-        label="TextField"
-        labelFor="TextField"
-        id="TextField"
-        disabled
-      />,
-    );
+    renderWithTheme(<TextField label="Text Field" name="field" disabled />);
 
-    const input = screen.getByLabelText('TextField');
+    const input = screen.getByLabelText('Text Field');
 
     expect(document.body).toHaveFocus();
 
@@ -99,11 +81,9 @@ describe('<TextField />', () => {
   });
 
   it('should be accessible by tab', () => {
-    renderWithTheme(
-      <TextField label="TextField" labelFor="TextField" id="TextField" />,
-    );
+    renderWithTheme(<TextField label="Text Field" name="field" />);
 
-    const input = screen.getByLabelText('TextField');
+    const input = screen.getByLabelText('Text Field');
 
     expect(document.body).toHaveFocus();
 
@@ -115,9 +95,8 @@ describe('<TextField />', () => {
   it('should render with icon', () => {
     renderWithTheme(
       <TextField
-        label="TextField"
-        labelFor="TextField"
-        id="TextField"
+        label="Text Field"
+        name="field"
         icon={<Email data-testid="icon" />}
       />,
     );
@@ -134,9 +113,8 @@ describe('<TextField />', () => {
   it('should render with icon on the right', () => {
     renderWithTheme(
       <TextField
-        label="TextField"
-        labelFor="TextField"
-        id="TextField"
+        label="Text Field"
+        name="field"
         icon={<Email data-testid="icon" />}
         iconPosition="right"
       />,
@@ -150,12 +128,7 @@ describe('<TextField />', () => {
 
   it('should render with error', () => {
     const { container } = renderWithTheme(
-      <TextField
-        label="TextField"
-        labelFor="TextField"
-        id="TextField"
-        error="Error"
-      />,
+      <TextField label="Text Field" name="field" error="Error" />,
     );
 
     expect(screen.getByText(/error/i)).toBeInTheDocument();
