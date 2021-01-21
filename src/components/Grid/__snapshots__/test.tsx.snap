@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Grid should render Grid 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+  gap: 3.2rem;
+}
+
+<div
+  class="c0"
+>
+  <p>
+    Content 1
+  </p>
+  <p>
+    Content 2
+  </p>
+  <p>
+    Content 3
+  </p>
+</div>
+`;
+
+exports[`Component: Grid should render Grid with columns passed 1`] = `
+.c0 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+  gap: 3.2rem;
+  grid-template-columns: repeat(2,1fr);
+}
+
+<div
+  class="c0"
+>
+  <p>
+    Content 1
+  </p>
+  <p>
+    Content 2
+  </p>
+  <p>
+    Content 3
+  </p>
+</div>
+`;
