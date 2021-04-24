@@ -9,11 +9,29 @@ export interface GridProps {
   md?: number;
   lg?: number;
   custom?: string;
+  gap?: string;
   children: React.ReactNode;
 }
 
-const Grid = ({ columns, xs, sm, md, lg, custom, children }: GridProps) => (
-  <S.Wrapper columns={columns} custom={custom} xs={xs} sm={sm} md={md} lg={lg}>
+const Grid = ({
+  columns,
+  xs,
+  sm,
+  md,
+  lg,
+  custom,
+  gap,
+  children,
+}: GridProps) => (
+  <S.Wrapper
+    columns={columns}
+    custom={custom}
+    gap={gap}
+    xs={xs}
+    sm={sm}
+    md={md}
+    lg={lg}
+  >
     {children}
   </S.Wrapper>
 );

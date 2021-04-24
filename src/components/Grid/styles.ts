@@ -38,10 +38,10 @@ const wrapperModifiers = {
 };
 
 export const Wrapper = styled.div<GridProps>`
-  ${({ theme, columns, xs, sm, md, lg, custom }) => css`
+  ${({ theme, columns, xs, sm, md, lg, custom, gap }) => css`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    gap: ${theme.grid.gutter};
+    gap: ${gap || theme.grid.gutter};
 
     ${!!columns && wrapperModifiers.columns(columns)}
     ${!!custom && wrapperModifiers.custom(custom)};

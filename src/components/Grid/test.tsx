@@ -106,6 +106,17 @@ describe('Component: Grid', () => {
     );
   });
 
+  it('should render Grid with gap passed', () => {
+    const { container } = renderWithTheme(
+      <Grid gap="2rem">
+        <p>Content 1</p>
+        <p>Content 2</p>
+      </Grid>,
+    );
+
+    expect(container.firstChild).toHaveStyle('gap: 2rem');
+  });
+
   it('should render Grid with custom columns setup', () => {
     const { container } = renderWithTheme(
       <Grid custom="1fr 20rem 2fr">
