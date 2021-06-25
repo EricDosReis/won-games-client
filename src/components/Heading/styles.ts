@@ -40,7 +40,7 @@ export const wrapperModifiers = {
       border-bottom: 0.5rem solid ${theme.colors[lineColor]};
       content: '';
       position: absolute;
-      bottom: -0.5rem;
+      bottom: -${theme.spacings.xxsmall};
       left: 0;
       width: 5rem;
     }

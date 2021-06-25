@@ -43,7 +43,7 @@ const FormProfile = () => (
       />
     </Grid>
 
-    <FlexBox justifyContent="flex-end" my={theme.grid.gutter}>
+    <FlexBox justifyContent="flex-end" mt={theme.grid.gutter}>
       <Button>Save</Button>
     </FlexBox>
   </>

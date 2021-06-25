@@ -6,7 +6,7 @@ export const Wrapper = styled.nav`
     border-bottom: 0.1rem solid ${theme.colors.lightGray};
     display: flex;
 
-    ${media.greaterThan('medium')`
+    ${media.greaterThan('large')`
       border: 0;
       flex-direction: column;
 
@@ -49,12 +49,15 @@ export const Link = styled.a<LinkProps>`
     }
 
     ${media.lessThan('medium')`
-      flex: 1;
       justify-content: center;
 
       > span {
         display: none;
       }
+    `}
+
+    ${media.lessThan('large')`
+      flex: 1;
     `}
 
     ${isActive && linkModifiers.active(theme)};

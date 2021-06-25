@@ -43,7 +43,7 @@ exports[`<ProfileMenu /> should render the menu 1`] = `
   margin-left: 1.6rem;
 }
 
-@media (min-width:768px) {
+@media (min-width:1170px) {
   .c0 {
     border: 0;
     -webkit-flex-direction: column;
@@ -58,9 +58,6 @@ exports[`<ProfileMenu /> should render the menu 1`] = `
 
 @media (max-width:768px) {
   .c1 {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -69,6 +66,14 @@ exports[`<ProfileMenu /> should render the menu 1`] = `
 
   .c1 > span {
     display: none;
+  }
+}
+
+@media (max-width:1170px) {
+  .c1 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 }
 
