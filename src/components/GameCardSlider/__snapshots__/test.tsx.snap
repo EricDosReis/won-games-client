@@ -94,7 +94,7 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
   justify-content: space-between;
   position: relative;
   height: 100%;
-  margin: 1.6rem;
+  margin: 1.2rem;
 }
 
 .c7 {
@@ -150,6 +150,7 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-size: 1.2rem;
   font-weight: 600;
   height: 3rem;
   color: #8F8F8F;
@@ -167,6 +168,7 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-size: 1.2rem;
   font-weight: 600;
   height: 3rem;
   color: #FAFAFA;
@@ -326,6 +328,18 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
 .c0 .slick-prev.slick-disabled,
 .c0 .slick-next.slick-disabled {
   visibility: hidden;
+}
+
+@media (min-width:1170px) {
+  .c10 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width:1170px) {
+  .c11 {
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width:1170px) {
@@ -894,7 +908,7 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
   justify-content: space-between;
   position: relative;
   height: 100%;
-  margin: 1.6rem;
+  margin: 1.2rem;
 }
 
 .c7 {
@@ -950,6 +964,7 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-size: 1.2rem;
   font-weight: 600;
   height: 3rem;
   color: #8F8F8F;
@@ -967,6 +982,7 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-size: 1.2rem;
   font-weight: 600;
   height: 3rem;
   color: #FAFAFA;
@@ -1126,6 +1142,18 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
 .c0 .slick-prev.slick-disabled,
 .c0 .slick-next.slick-disabled {
   visibility: hidden;
+}
+
+@media (min-width:1170px) {
+  .c10 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width:1170px) {
+  .c11 {
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width:1170px) {

@@ -9,7 +9,7 @@ import Radio from 'components/Radio';
 
 import * as S from './styles';
 
-export type ItemProps = {
+export type ExploreSiderbarItemProps = {
   title: string;
   name: string;
   type: string;
@@ -26,7 +26,7 @@ type Values = {
 };
 
 export type ExploreSidebarProps = {
-  items: ItemProps[];
+  items: ExploreSiderbarItemProps[];
   initialValues?: Values;
   onFilter: (values: Values) => void;
 };

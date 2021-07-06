@@ -1,4 +1,5 @@
 import styled, { css, DefaultTheme } from 'styled-components';
+import media from 'styled-media-query';
 import { darken } from 'polished';
 
 export const Wrapper = styled.article`
@@ -56,7 +57,7 @@ export const Content = styled.div`
     justify-content: space-between;
     position: relative;
     height: 100%;
-    margin: ${theme.spacings.xsmall};
+    margin: ${theme.font.sizes.xsmall};
   `}
 `;
 
@@ -127,10 +128,15 @@ export const Price = styled.div<PriceProps>`
   ${({ theme, isPromotional }) => css`
     display: inline-flex;
     align-items: center;
+    font-size: ${theme.font.sizes.xsmall};
     font-weight: ${theme.font.bold};
     height: 3rem;
 
     ${!isPromotional && priceModifiers.default(theme)}
     ${isPromotional && priceModifiers.promotional(theme)}
+
+    ${media.greaterThan('large')`
+      font-size: ${theme.font.sizes.small};
+    `};
   `}
 `;

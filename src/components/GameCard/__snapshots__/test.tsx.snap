@@ -94,7 +94,7 @@ exports[`<GameCard /> should render correctly 1`] = `
   justify-content: space-between;
   position: relative;
   height: 100%;
-  margin: 1.6rem;
+  margin: 1.2rem;
 }
 
 .c4 {
@@ -150,6 +150,7 @@ exports[`<GameCard /> should render correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-size: 1.2rem;
   font-weight: 600;
   height: 3rem;
   color: #FAFAFA;
@@ -157,6 +158,12 @@ exports[`<GameCard /> should render correctly 1`] = `
   background-color: #3CD3C1;
   border-radius: 0.4rem;
   margin-right: calc(0.8rem / 2);
+}
+
+@media (min-width:1170px) {
+  .c7 {
+    font-size: 1.4rem;
+  }
 }
 
 <article
@@ -378,7 +385,7 @@ exports[`<GameCard /> should render the game card with ribbon 1`] = `
   justify-content: space-between;
   position: relative;
   height: 100%;
-  margin: 1.6rem;
+  margin: 1.2rem;
 }
 
 .c5 {
@@ -434,6 +441,7 @@ exports[`<GameCard /> should render the game card with ribbon 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-size: 1.2rem;
   font-weight: 600;
   height: 3rem;
   color: #FAFAFA;
@@ -441,6 +449,12 @@ exports[`<GameCard /> should render the game card with ribbon 1`] = `
   background-color: #3CD3C1;
   border-radius: 0.4rem;
   margin-right: calc(0.8rem / 2);
+}
+
+@media (min-width:1170px) {
+  .c8 {
+    font-size: 1.4rem;
+  }
 }
 
 <article
@@ -626,7 +640,7 @@ exports[`<GameCard /> should render with promotional price 1`] = `
   justify-content: space-between;
   position: relative;
   height: 100%;
-  margin: 1.6rem;
+  margin: 1.2rem;
 }
 
 .c4 {
@@ -682,6 +696,7 @@ exports[`<GameCard /> should render with promotional price 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-size: 1.2rem;
   font-weight: 600;
   height: 3rem;
   color: #8F8F8F;
@@ -699,6 +714,7 @@ exports[`<GameCard /> should render with promotional price 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-size: 1.2rem;
   font-weight: 600;
   height: 3rem;
   color: #FAFAFA;
@@ -706,6 +722,18 @@ exports[`<GameCard /> should render with promotional price 1`] = `
   background-color: #3CD3C1;
   border-radius: 0.4rem;
   margin-right: calc(0.8rem / 2);
+}
+
+@media (min-width:1170px) {
+  .c7 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width:1170px) {
+  .c8 {
+    font-size: 1.4rem;
+  }
 }
 
 <article

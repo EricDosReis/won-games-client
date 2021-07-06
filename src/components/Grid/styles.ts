@@ -45,9 +45,9 @@ export const Wrapper = styled.div<GridProps>`
 
     ${!!columns && wrapperModifiers.columns(columns)}
     ${!!custom && wrapperModifiers.custom(custom)};
-    ${!!xs && wrapperModifiers.xs(xs)};
-    ${!!sm && wrapperModifiers.sm(sm)};
-    ${!!md && wrapperModifiers.md(md)};
     ${!!lg && wrapperModifiers.lg(lg)};
+    ${!!md && wrapperModifiers.md(md)};
+    ${!!sm && wrapperModifiers.sm(sm)};
+    ${!!xs && wrapperModifiers.xs(xs)};
   `};
 `;
