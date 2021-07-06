@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShowMore /> should render correctly 1`] = `
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  color: #FAFAFA;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 3.2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.c0:hover svg,
+.c0:focus svg {
+  -webkit-transform: translateY(0.5rem);
+  -ms-transform: translateY(0.5rem);
+  transform: translateY(0.5rem);
+}
+
+.c0 span {
+  display: block;
+}
+
+.c0 svg {
+  color: #F231A5;
+  -webkit-transition: -webkit-transform 0.1s ease-in-out;
+  -webkit-transition: transform 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out;
+}
+
+<div
+  class="c0"
+  role="button"
+>
+  <span>
+    Show More
+  </span>
+  <svg
+    aria-hidden="true"
+    class="c1"
+    fill="currentColor"
+    focusable="false"
+    height="34"
+    viewBox="0 0 24 24"
+    width="34"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 0h24v24H0V0z"
+      fill="none"
+    />
+    <path
+      d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+    />
+  </svg>
+</div>
+`;
