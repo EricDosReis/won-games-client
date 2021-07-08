@@ -1,40 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<CartList /> should render the heading 1`] = `
-.c0 {
-  background: #FAFAFA;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-self: start;
-  -ms-flex-item-align: start;
-  align-self: start;
-}
-
-.c7 {
-  background: #eee;
-  color: #030517;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-size: 1.4rem;
-  font-weight: 600;
-  padding: 0.8rem;
-}
-
-.c8 {
-  color: #F231A5;
-}
-
 .c1 {
   border-bottom: 0.1rem solid #EAEAEA;
   padding: 0.8rem;
@@ -100,11 +66,38 @@ exports[`<CartList /> should render the heading 1`] = `
   padding: 0.2rem 0.8rem;
 }
 
-@media (min-width:768px) {
-  .c7 {
-    font-size: 1.6rem;
-    padding: 2.4rem;
-  }
+.c0 {
+  background: #FAFAFA;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+}
+
+.c7 {
+  background: #eee;
+  color: #030517;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.8rem;
+}
+
+.c8 {
+  color: #F231A5;
 }
 
 @media (min-width:768px) {
@@ -129,6 +122,13 @@ exports[`<CartList /> should render the heading 1`] = `
   .c5 {
     font-size: 1.8rem;
     line-height: 1.8rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    font-size: 1.6rem;
+    padding: 2.4rem;
   }
 }
 
@@ -198,7 +198,7 @@ exports[`<CartList /> should render the heading 1`] = `
   <p
     class="c7"
   >
-    Total 
+    Total
     <span
       class="c8"
     >

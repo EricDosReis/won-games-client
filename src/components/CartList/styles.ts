@@ -16,6 +16,7 @@ export const Footer = styled.p`
     background: ${tint(0.2, theme.colors.lightGray)};
     color: ${theme.colors.black};
     display: flex;
+    align-items: center;
     justify-content: space-between;
     font-size: ${theme.font.sizes.small};
     font-weight: ${theme.font.bold};
