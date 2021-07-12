@@ -1,11 +1,7 @@
-import styled, { css } from 'styled-components';
+import styled, { css, DefaultTheme } from 'styled-components';
+import { EmptyProps } from '.';
 
-export const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-`;
+type WrapperProps = Pick<EmptyProps, 'small' | 'inverted'>;
 
 export const Image = styled.img`
   max-width: 100%;
@@ -27,5 +23,42 @@ export const Description = styled.p`
     font-weight: ${theme.font.light};
     line-height: 1.2;
     margin-bottom: ${theme.spacings.medium};
+  `}
+`;
+
+const wrapperModifiers = {
+  small: (theme: DefaultTheme) => css`
+    ${Image} {
+      max-width: 20rem;
+    }
+
+    ${Title} {
+      font-size: ${theme.font.sizes.large};
+      margin-bottom: ${theme.spacings.xxsmall};
+    }
+
+    ${Description} {
+      font-size: ${theme.font.sizes.medium};
+      margin-bottom: ${theme.spacings.small};
+    }
+  `,
+
+  inverted: (theme: DefaultTheme) => css`
+    ${Description} {
+      color: ${theme.colors.black};
+    }
+  `,
+};
+
+export const Wrapper = styled.div<WrapperProps>`
+  ${({ theme, small, inverted }) => css`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: ${theme.spacings.xsmall};
+
+    ${small && wrapperModifiers.small(theme)};
+    ${inverted && wrapperModifiers.inverted(theme)};
   `}
 `;

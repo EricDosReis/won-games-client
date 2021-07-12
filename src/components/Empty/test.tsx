@@ -38,4 +38,23 @@ describe('<Empty />', () => {
       screen.queryByRole('link', { name: /go back to store/i }),
     ).not.toBeInTheDocument();
   });
+
+  it('should render small size', () => {
+    renderWithTheme(<Empty {...props} small />);
+
+    expect(
+      screen.getByRole('image', {
+        name: /a gamer in a couch playing videogame/i,
+      }),
+    ).toHaveStyle({ 'max-width': '20rem' });
+
+    expect(
+      screen.getByRole('heading', { name: /a simple title/i }),
+    ).toHaveStyle({ fontSize: '1.8rem', marginBottom: '0.8rem' });
+
+    expect(screen.getByText(/a simple description/i)).toHaveStyle({
+      fontSize: '1.6rem',
+      marginBottom: '2.4rem',
+    });
+  });
 });
