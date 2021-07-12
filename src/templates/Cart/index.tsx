@@ -32,7 +32,7 @@ const Cart = ({
           My cart
         </Heading>
 
-        {items.length ? (
+        {items?.length ? (
           <Grid sm={1} custom="2fr minmax(30rem, 1fr)">
             <CartList items={items} total={total} />
             <PaymentOptions cards={cards} handlePayment={handlePayment} />
