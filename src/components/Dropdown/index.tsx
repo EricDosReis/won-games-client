@@ -3,14 +3,15 @@ import * as S from './styles';
 
 export type DropdownProps = {
   title: React.ReactNode;
+  size?: 'sm' | 'md' | 'lg';
   children: React.ReactNode;
 };
 
-const Dropdown = ({ title, children }: DropdownProps) => {
+const Dropdown = ({ title, size = 'md', children }: DropdownProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <S.Wrapper isOpen={isOpen}>
+    <S.Wrapper isOpen={isOpen} size={size}>
       <S.Title role="button" onClick={() => setIsOpen(!isOpen)}>
         {title}
       </S.Title>

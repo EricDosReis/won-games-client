@@ -1,4 +1,7 @@
 import styled, { css } from 'styled-components';
+import media from 'styled-media-query';
+
+import { DropdownProps } from '.';
 
 export const Title = styled.div`
   ${({ theme }) => css`
@@ -35,6 +38,12 @@ export const Content = styled.div`
 
 type WrapperProps = {
   isOpen?: boolean;
+} & Pick<DropdownProps, 'size'>;
+
+const wrapperSizes = {
+  sm: '10rem',
+  md: '20rem',
+  lg: '50rem',
 };
 
 const wrapperModifiers = {
@@ -52,15 +61,23 @@ const wrapperModifiers = {
 };
 
 export const Wrapper = styled.div<WrapperProps>`
-  ${({ theme, isOpen }) => css`
+  ${({ theme, isOpen, size }) => css`
     position: relative;
     width: max-content;
 
     ${Content} {
       transition: transform 0.2s ease-in, opacity ${theme.transition.default};
 
-      ${isOpen && wrapperModifiers.open()}
-      ${!isOpen && wrapperModifiers.close()}
+      ${isOpen && wrapperModifiers.open()};
+      ${!isOpen && wrapperModifiers.close()};
+
+      > * {
+        width: ${wrapperSizes[size!]};
+
+        ${media.lessThan('medium')`
+          width: 30rem;
+        `}
+      }
     }
   `}
 `;

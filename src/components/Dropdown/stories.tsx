@@ -12,9 +12,13 @@ export default {
   },
 } as Meta;
 
-export const Basic: Story<DropdownProps> = args => <Dropdown {...args} />;
+export const Basic: Story<DropdownProps> = args => (
+  <Dropdown {...args}>
+    <div>Content</div>
+  </Dropdown>
+);
 
 Basic.args = {
   title: 'Click here',
-  children: 'Content',
+  size: 'sm',
 };
