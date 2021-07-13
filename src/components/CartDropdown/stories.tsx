@@ -4,7 +4,7 @@ import mock from 'components/CartList/mock';
 import CartDropdown, { CartDropdownProps } from '.';
 
 export default {
-  title: 'CartDropdown',
+  title: 'Dropdown/CartDropdown',
   component: CartDropdown,
   args: {
     items: mock,
