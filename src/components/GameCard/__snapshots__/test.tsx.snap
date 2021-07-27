@@ -78,6 +78,8 @@ exports[`<GameCard /> should render correctly 1`] = `
 
 .c3 {
   max-width: calc(100% - 2.5rem);
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c2 {
@@ -169,19 +171,21 @@ exports[`<GameCard /> should render correctly 1`] = `
 <article
   class="c0"
 >
-  <div
+  <a
     class="c1"
+    href="/game/population-zero"
   >
     <img
       alt="Population Zero"
       src="/population-zero.jpg"
     />
-  </div>
+  </a>
   <div
     class="c2"
   >
-    <div
+    <a
       class="c3"
+      href="/game/population-zero"
     >
       <h3
         class="c4"
@@ -193,7 +197,7 @@ exports[`<GameCard /> should render correctly 1`] = `
       >
         Rockstar Games
       </h4>
-    </div>
+    </a>
     <div
       class="c6"
     >
@@ -369,6 +373,8 @@ exports[`<GameCard /> should render the game card with ribbon 1`] = `
 
 .c4 {
   max-width: calc(100% - 2.5rem);
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c3 {
@@ -466,19 +472,21 @@ exports[`<GameCard /> should render the game card with ribbon 1`] = `
   >
     20% OFF
   </div>
-  <div
+  <a
     class="c2"
+    href="/game/population-zero"
   >
     <img
       alt="Population Zero"
       src="/population-zero.jpg"
     />
-  </div>
+  </a>
   <div
     class="c3"
   >
-    <div
+    <a
       class="c4"
+      href="/game/population-zero"
     >
       <h3
         class="c5"
@@ -490,7 +498,7 @@ exports[`<GameCard /> should render the game card with ribbon 1`] = `
       >
         Rockstar Games
       </h4>
-    </div>
+    </a>
     <div
       class="c7"
     >
@@ -624,6 +632,8 @@ exports[`<GameCard /> should render with promotional price 1`] = `
 
 .c3 {
   max-width: calc(100% - 2.5rem);
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c2 {
@@ -739,19 +749,21 @@ exports[`<GameCard /> should render with promotional price 1`] = `
 <article
   class="c0"
 >
-  <div
+  <a
     class="c1"
+    href="/game/population-zero"
   >
     <img
       alt="Population Zero"
       src="/population-zero.jpg"
     />
-  </div>
+  </a>
   <div
     class="c2"
   >
-    <div
+    <a
       class="c3"
+      href="/game/population-zero"
     >
       <h3
         class="c4"
@@ -763,7 +775,7 @@ exports[`<GameCard /> should render with promotional price 1`] = `
       >
         Rockstar Games
       </h4>
-    </div>
+    </a>
     <div
       class="c6"
     >

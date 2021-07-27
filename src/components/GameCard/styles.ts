@@ -13,7 +13,7 @@ export const Wrapper = styled.article`
   `}
 `;
 
-export const ImageBox = styled.div`
+export const ImageBox = styled.a`
   ${({ theme }) => css`
     animation: placeholderShimmer 1s linear infinite forwards;
     background-size: 80rem 14rem;
@@ -46,8 +46,9 @@ export const ImageBox = styled.div`
   `}
 `;
 
-export const Info = styled.div`
+export const Info = styled.a`
   max-width: calc(100% - 2.5rem);
+  text-decoration: none;
 `;
 
 export const Content = styled.div`

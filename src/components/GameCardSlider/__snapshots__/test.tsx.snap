@@ -78,6 +78,8 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
 
 .c6 {
   max-width: calc(100% - 2.5rem);
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c5 {
@@ -407,19 +409,21 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
               <article
                 class="c3"
               >
-                <div
+                <a
                   class="c4"
+                  href="/game/population-zero"
                 >
                   <img
                     alt="Population Zero"
                     src="https://source.unsplash.com/user/willianjusten/300x140"
                   />
-                </div>
+                </a>
                 <div
                   class="c5"
                 >
-                  <div
+                  <a
                     class="c6"
+                    href="/game/population-zero"
                   >
                     <h3
                       class="c7"
@@ -431,7 +435,7 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
                     >
                       Rockstar Games
                     </h4>
-                  </div>
+                  </a>
                   <div
                     class="c9"
                   >
@@ -503,19 +507,21 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
               <article
                 class="c3"
               >
-                <div
+                <a
                   class="c4"
+                  href="/game/population-zero"
                 >
                   <img
                     alt="Population Zero"
                     src="https://source.unsplash.com/user/willianjusten/300x141"
                   />
-                </div>
+                </a>
                 <div
                   class="c5"
                 >
-                  <div
+                  <a
                     class="c6"
+                    href="/game/population-zero"
                   >
                     <h3
                       class="c7"
@@ -527,7 +533,7 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
                     >
                       Rockstar Games
                     </h4>
-                  </div>
+                  </a>
                   <div
                     class="c9"
                   >
@@ -599,19 +605,21 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
               <article
                 class="c3"
               >
-                <div
+                <a
                   class="c4"
+                  href="/game/population-zero"
                 >
                   <img
                     alt="Population Zero"
                     src="https://source.unsplash.com/user/willianjusten/300x142"
                   />
-                </div>
+                </a>
                 <div
                   class="c5"
                 >
-                  <div
+                  <a
                     class="c6"
+                    href="/game/population-zero"
                   >
                     <h3
                       class="c7"
@@ -623,7 +631,7 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
                     >
                       Rockstar Games
                     </h4>
-                  </div>
+                  </a>
                   <div
                     class="c9"
                   >
@@ -695,19 +703,21 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
               <article
                 class="c3"
               >
-                <div
+                <a
                   class="c4"
+                  href="/game/population-zero"
                 >
                   <img
                     alt="Population Zero"
                     src="https://source.unsplash.com/user/willianjusten/300x143"
                   />
-                </div>
+                </a>
                 <div
                   class="c5"
                 >
-                  <div
+                  <a
                     class="c6"
+                    href="/game/population-zero"
                   >
                     <h3
                       class="c7"
@@ -719,7 +729,7 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
                     >
                       Rockstar Games
                     </h4>
-                  </div>
+                  </a>
                   <div
                     class="c9"
                   >
@@ -784,6 +794,13 @@ exports[`<GameSlider /> should render white arrows if color passed 1`] = `
             aria-hidden="true"
             class="slick-slide"
             data-index="4"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          />
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="5"
             style="outline: none; width: 0px;"
             tabindex="-1"
           />
@@ -892,6 +909,8 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
 
 .c6 {
   max-width: calc(100% - 2.5rem);
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c5 {
@@ -1221,19 +1240,21 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
               <article
                 class="c3"
               >
-                <div
+                <a
                   class="c4"
+                  href="/game/population-zero"
                 >
                   <img
                     alt="Population Zero"
                     src="https://source.unsplash.com/user/willianjusten/300x140"
                   />
-                </div>
+                </a>
                 <div
                   class="c5"
                 >
-                  <div
+                  <a
                     class="c6"
+                    href="/game/population-zero"
                   >
                     <h3
                       class="c7"
@@ -1245,7 +1266,7 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
                     >
                       Rockstar Games
                     </h4>
-                  </div>
+                  </a>
                   <div
                     class="c9"
                   >
@@ -1317,19 +1338,21 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
               <article
                 class="c3"
               >
-                <div
+                <a
                   class="c4"
+                  href="/game/population-zero"
                 >
                   <img
                     alt="Population Zero"
                     src="https://source.unsplash.com/user/willianjusten/300x141"
                   />
-                </div>
+                </a>
                 <div
                   class="c5"
                 >
-                  <div
+                  <a
                     class="c6"
+                    href="/game/population-zero"
                   >
                     <h3
                       class="c7"
@@ -1341,7 +1364,7 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
                     >
                       Rockstar Games
                     </h4>
-                  </div>
+                  </a>
                   <div
                     class="c9"
                   >
@@ -1413,19 +1436,21 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
               <article
                 class="c3"
               >
-                <div
+                <a
                   class="c4"
+                  href="/game/population-zero"
                 >
                   <img
                     alt="Population Zero"
                     src="https://source.unsplash.com/user/willianjusten/300x142"
                   />
-                </div>
+                </a>
                 <div
                   class="c5"
                 >
-                  <div
+                  <a
                     class="c6"
+                    href="/game/population-zero"
                   >
                     <h3
                       class="c7"
@@ -1437,7 +1462,7 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
                     >
                       Rockstar Games
                     </h4>
-                  </div>
+                  </a>
                   <div
                     class="c9"
                   >
@@ -1509,19 +1534,21 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
               <article
                 class="c3"
               >
-                <div
+                <a
                   class="c4"
+                  href="/game/population-zero"
                 >
                   <img
                     alt="Population Zero"
                     src="https://source.unsplash.com/user/willianjusten/300x143"
                   />
-                </div>
+                </a>
                 <div
                   class="c5"
                 >
-                  <div
+                  <a
                     class="c6"
+                    href="/game/population-zero"
                   >
                     <h3
                       class="c7"
@@ -1533,7 +1560,7 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
                     >
                       Rockstar Games
                     </h4>
-                  </div>
+                  </a>
                   <div
                     class="c9"
                   >
@@ -1598,6 +1625,13 @@ exports[`<GameSlider /> should render with 4 active items 1`] = `
             aria-hidden="true"
             class="slick-slide"
             data-index="4"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          />
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="5"
             style="outline: none; width: 0px;"
             tabindex="-1"
           />
