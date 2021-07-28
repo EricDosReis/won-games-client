@@ -7,6 +7,8 @@ import {
 
 import Button from 'components/Button';
 import Ribbon, { RibbonColors, RibbonSizes } from 'components/Ribbon';
+import { formatCurrency } from 'utils/currency';
+
 import * as S from './styles';
 
 export type GameCardProps = {
@@ -14,8 +16,8 @@ export type GameCardProps = {
   title: string;
   developer: string;
   img: string;
-  price: string;
-  promotionalPrice?: string;
+  price: number;
+  promotionalPrice?: number;
   ribbon?: React.ReactNode;
   ribbonColor?: RibbonColors;
   ribbonSize?: RibbonSizes;
@@ -58,8 +60,10 @@ const GameCard = ({
       </Link>
 
       <S.BuyBox>
-        {!!promotionalPrice && <S.Price isPromotional>{price}</S.Price>}
-        <S.Price>{promotionalPrice || price}</S.Price>
+        {!!promotionalPrice && (
+          <S.Price isPromotional>{formatCurrency(price)}</S.Price>
+        )}
+        <S.Price>{formatCurrency(promotionalPrice || price)}</S.Price>
 
         <Button
           icon={<AddShoppingCart />}

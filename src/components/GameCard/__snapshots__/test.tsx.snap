@@ -204,7 +204,7 @@ exports[`<GameCard /> should render correctly 1`] = `
       <div
         class="c7"
       >
-        R$ 235,00
+        $235.00
       </div>
       <button
         aria-label="Add to Cart"
@@ -505,7 +505,7 @@ exports[`<GameCard /> should render the game card with ribbon 1`] = `
       <div
         class="c8"
       >
-        R$ 235,00
+        $235.00
       </div>
       <button
         aria-label="Add to Cart"
@@ -782,12 +782,12 @@ exports[`<GameCard /> should render with promotional price 1`] = `
       <div
         class="c7"
       >
-        R$ 235,00
+        $235.00
       </div>
       <div
         class="c8"
       >
-        R$ 180,00
+        $180.00
       </div>
       <button
         aria-label="Add to Cart"
